@@ -1,0 +1,1574 @@
+[  +33 ms] executing: sysctl hw.optional.arm64
+[   +6 ms] Exit code 0 from: sysctl hw.optional.arm64
+[        ] hw.optional.arm64: 1
+[   +7 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[        ] executing: [/Users/gilmichael/.fluter-src/flutter/] git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[  +23 ms] Exit code 0 from: git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[        ] 2025-12-11 11:50:07 -0500
+[  +13 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +35 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[  +58 ms] Skipping pub get: version match.
+[  +46 ms] Found plugin agus_maps_flutter at /Users/gilmichael/Desktop/Projects/agus_maps_flutter/
+[  +35 ms] Found plugin agus_maps_flutter at /Users/gilmichael/Desktop/Projects/agus_maps_flutter/
+[   +6 ms] Generating /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+[  +10 ms] Skipping generating GeneratedPluginRegistrant.java because it is up-to-date.
+[   +2 ms] Skipping generating generated_plugin_registrant.h because it is up-to-date.
+[        ] Skipping generating generated_plugin_registrant.cc because it is up-to-date.
+[        ] Skipping generating generated_plugins.cmake because it is up-to-date.
+[   +1 ms] Skipping generating generated_plugin_registrant.h because it is up-to-date.
+[        ] Skipping generating generated_plugin_registrant.cc because it is up-to-date.
+[        ] Skipping generating generated_plugins.cmake because it is up-to-date.
+[   +1 ms] Skipping generating GeneratedPluginRegistrant.h because it is up-to-date.
+[        ] Skipping generating GeneratedPluginRegistrant.m because it is up-to-date.
+[        ] Skipping generating GeneratedPluginRegistrant.swift because it is up-to-date.
+[  +10 ms] executing: sysctl hw.optional.arm64
+[   +5 ms] Exit code 0 from: sysctl hw.optional.arm64
+[        ] hw.optional.arm64: 1
+[        ] executing: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[ +321 ms] Exit code 0 from: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[        ] Xcode 26.2
+           Build version 17C52
+[ +145 ms] executing: /usr/bin/plutil -convert xml1 -o - /Applications/Android Studio.app/Contents/Info.plist
+[   +9 ms] Exit code 0 from: /usr/bin/plutil -convert xml1 -o - /Applications/Android Studio.app/Contents/Info.plist
+[        ] <?xml version="1.0" encoding="UTF-8"?>
+           <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+           <plist version="1.0">
+           <dict>
+           	<key>CFBundleDevelopmentRegion</key>
+           	<string>English</string>
+           	<key>CFBundleDocumentTypes</key>
+           	<array>
+           		<dict>
+           			<key>CFBundleTypeExtensions</key>
+           			<array>
+           				<string>ipr</string>
+           			</array>
+           			<key>CFBundleTypeIconFile</key>
+           			<string>studio.icns</string>
+           			<key>CFBundleTypeName</key>
+           			<string>Android Studio Project File</string>
+           			<key>CFBundleTypeRole</key>
+           			<string>Editor</string>
+           		</dict>
+           		<dict>
+           			<key>CFBundleTypeExtensions</key>
+           			<array>
+           				<string>*</string>
+           			</array>
+           			<key>CFBundleTypeName</key>
+           			<string>All documents</string>
+           			<key>CFBundleTypeOSTypes</key>
+           			<array>
+           				<string>****</string>
+           			</array>
+           			<key>CFBundleTypeRole</key>
+           			<string>Editor</string>
+           			<key>LSTypeIsPackage</key>
+           			<false/>
+           		</dict>
+           	</array>
+           	<key>CFBundleExecutable</key>
+           	<string>studio</string>
+           	<key>CFBundleGetInfoString</key>
+           	<string>Android Studio 2025.2, build AI-252.25557.131.2521.14432022. Copyright JetBrains s.r.o., (c) 2000-2025</string>
+           	<key>CFBundleIconFile</key>
+           	<string>studio.icns</string>
+           	<key>CFBundleIdentifier</key>
+           	<string>com.google.android.studio</string>
+           	<key>CFBundleInfoDictionaryVersion</key>
+           	<string>6.0</string>
+           	<key>CFBundleName</key>
+           	<string>Android Studio</string>
+           	<key>CFBundlePackageType</key>
+           	<string>APPL</string>
+           	<key>CFBundleShortVersionString</key>
+           	<string>2025.2</string>
+           	<key>CFBundleURLTypes</key>
+           	<array>
+           		<dict>
+           			<key>CFBundleTypeRole</key>
+           			<string>Editor</string>
+           			<key>CFBundleURLName</key>
+           			<string>Stacktrace</string>
+           			<key>CFBundleURLSchemes</key>
+           			<array>
+           				<string>idea</string>
+           			</array>
+           		</dict>
+           	</array>
+           	<key>CFBundleVersion</key>
+           	<string>AI-252.25557.131.2521.14432022</string>
+           	<key>LSApplicationCategoryType</key>
+           	<string>public.app-category.developer-tools</string>
+           	<key>LSArchitecturePriority</key>
+           	<array>
+           		<string>arm64</string>
+           	</array>
+           	<key>LSMinimumSystemVersion</key>
+           	<string>10.13</string>
+           	<key>LSRequiresNativeExecution</key>
+           	<string>YES</string>
+           	<key>NSAppleEventsUsageDescription</key>
+           	<string>An application in Android Studio requests the ability to send Apple events.</string>
+           	<key>NSBluetoothAlwaysUsageDescription</key>
+           	<string>An application in Android Studio requests access to Bluetooth.</string>
+           	<key>NSCameraUsageDescription</key>
+           	<string>An application in Android Studio requests access to the device's camera.</string>
+           	<key>NSDesktopFolderUsageDescription</key>
+           	<string>An application in Android Studio requests access to the user's Desktop folder.</string>
+           	<key>NSDocumentsFolderUsageDescription</key>
+           	<string>An application in Android Studio requests access to the user's Documents folder.</string>
+           	<key>NSDownloadsFolderUsageDescription</key>
+           	<string>An application in Android Studio requests access to the user's Downloads folder.</string>
+           	<key>NSHighResolutionCapable</key>
+           	<true/>
+           	<key>NSLocalNetworkUsageDescription</key>
+           	<string>Android Studio's features, such as SSH and database connectivity, require permissions for accessing the local network and sending broadcast requests.</string>
+           	<key>NSLocationUsageDescription</key>
+           	<string>An application in Android Studio requests access to the user's location information.</string>
+           	<key>NSMicrophoneUsageDescription</key>
+           	<string>An application in Android Studio requests access to the device's microphone.</string>
+           	<key>NSNetworkVolumesUsageDescription</key>
+           	<string>An application in Android Studio requests access to files on a network volume.</string>
+           	<key>NSRemovableVolumesUsageDescription</key>
+           	<string>An application in Android Studio requests access to files on a removable volume.</string>
+           	<key>NSSupportsAutomaticGraphicsSwitching</key>
+           	<true/>
+           </dict>
+           </plist>
+[   +6 ms] executing: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java -version
+[  +82 ms] Exit code 0 from: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java -version
+[        ] openjdk version "21.0.8" 2025-07-15
+           OpenJDK Runtime Environment (build 21.0.8+-14196175-b1038.72)
+           OpenJDK 64-Bit Server VM (build 21.0.8+-14196175-b1038.72, mixed mode)
+[   +7 ms] Top-level Gradle build file not found, skipping migration of task "clean".
+[   +1 ms] executing: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java --version
+[  +80 ms] Exit code 0 from: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java --version
+[        ] openjdk 21.0.8 2025-07-15
+           OpenJDK Runtime Environment (build 21.0.8+-14196175-b1038.72)
+           OpenJDK 64-Bit Server VM (build 21.0.8+-14196175-b1038.72, mixed mode)
+[   +1 ms] Version of Java is different than impacted version, no migration attempted.
+[  +11 ms] Using gradle from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/android/gradlew.
+[  +15 ms] LocalFile: '/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/android/build.gradle.kts' doesn't provide an AGP version. Checking settings.
+[        ] LocalFile: '/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/android/settings.gradle.kts' provides AGP version: 8.11.1
+[  +14 ms] Running Gradle task 'assembleDebug'...
+[        ] executing: [/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/android/] /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/android/gradlew --full-stacktrace --info -Pverbose=true -Ptarget-platform=android-arm,android-arm64,android-x64 -Ptarget=lib/main.dart -Pbase-application-name=android.app.Application -Pdart-defines=RkxVVFRFUl9WRVJTSU9OPTMuMzguNQ==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049ZjZmZjE1MjlmZA==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049MTUyN2FlMGVjNQ==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC40 -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=false assembleDebug
+[ +455 ms] Initialized native services in: /Users/gilmichael/.gradle/native
+[        ] Initialized jansi services in: /Users/gilmichael/.gradle/native
+[ +211 ms] The client will now receive all logging from the daemon (pid: 83317). The daemon log file: /Users/gilmichael/.gradle/daemon/8.14/daemon-83317.out.log
+[        ] Starting 25th build in daemon [uptime: 2 hrs 19 mins 32.427 secs, performance: 100%, GC rate: 0.00/s, heap usage: 1% of 8 GiB, non-heap usage: 7% of 4 GiB]
+[        ] Using 10 worker leases.
+[        ] Now considering [/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/android, /Users/gilmichael/.fluter-src/flutter/packages/flutter_tools/gradle] as hierarchies to watch
+[        ] Watching the file system is configured to be enabled if available
+[        ] File system watching is active
+[        ] Starting Build
+[        ] Now considering [/Users/gilmichael/.fluter-src/flutter/packages/flutter_tools/gradle, /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/android] as hierarchies to watch
+[  +98 ms] > Configure project :gradle
+[        ] Evaluating project ':gradle' using build file '/Users/gilmichael/.fluter-src/flutter/packages/flutter_tools/gradle/build.gradle.kts'.
+[        ] Resolved plugin [id: 'org.gradle.java-gradle-plugin']
+[        ] Resolved plugin [id: 'org.gradle.groovy']
+[        ] Resolved plugin [id: 'org.gradle.kotlin.kotlin-dsl', version: '5.2.0']
+[        ] Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '1.9.20']
+[        ] Using Kotlin Gradle Plugin gradle85 variant
+[        ] kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+[        ] kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+[        ] file or directory '/Users/gilmichael/.fluter-src/flutter/packages/flutter_tools/gradle/src/main/java', not found
+[        ] Resolved plugin [id: 'dev.flutter.flutter-plugin-loader', version: '1.0.0']
+[        ] Resolved plugin [id: 'com.android.application', version: '8.11.1', apply: false]
+[        ] Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.2.20', apply: false]
+[        ] Resolve mutations for :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[#3099,Execution worker,5,main]) started.
+[        ] :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[#3099,Execution worker,5,main]) started.
+[        ] > Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+[        ] Skipping task ':gradle:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+[        ] Resolve mutations for :gradle:compileKotlin (Thread[#3099,Execution worker,5,main]) started.
+[        ] :gradle:compileKotlin (Thread[#3099,Execution worker,5,main]) started.
+[  +98 ms] > Task :gradle:compileKotlin UP-TO-DATE
+[        ] Caching disabled for task ':gradle:compileKotlin' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':gradle:compileKotlin' as it is up-to-date.
+[        ] Resolve mutations for :gradle:compileJava (Thread[#3099,Execution worker,5,main]) started.
+[        ] :gradle:compileJava (Thread[#3099,Execution worker,5,main]) started.
+[        ] > Task :gradle:compileJava NO-SOURCE
+[        ] Skipping task ':gradle:compileJava' as it has no source files and no previous output files.
+[        ] Resolve mutations for :gradle:compileGroovy (Thread[#3099,Execution worker,5,main]) started.
+[        ] :gradle:compileGroovy (Thread[#3099,Execution worker,5,main]) started.
+[        ] > Task :gradle:compileGroovy NO-SOURCE
+[        ] Skipping task ':gradle:compileGroovy' as it has no source files and no previous output files.
+[        ] Resolve mutations for :gradle:pluginDescriptors (Thread[#3099,Execution worker,5,main]) started.
+[        ] :gradle:pluginDescriptors (Thread[#3099,Execution worker,5,main]) started.
+[        ] > Task :gradle:pluginDescriptors UP-TO-DATE
+[        ] Caching disabled for task ':gradle:pluginDescriptors' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:pluginDescriptors' as it is up-to-date.
+[        ] Resolve mutations for :gradle:processResources (Thread[#3099,Execution worker,5,main]) started.
+[        ] :gradle:processResources (Thread[#3099,Execution worker,5,main]) started.
+[        ] > Task :gradle:processResources UP-TO-DATE
+[        ] Caching disabled for task ':gradle:processResources' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:processResources' as it is up-to-date.
+[        ] Resolve mutations for :gradle:classes (Thread[#3099,Execution worker,5,main]) started.
+[        ] :gradle:classes (Thread[#3098,included builds,5,main]) started.
+[        ] > Task :gradle:classes UP-TO-DATE
+[        ] Skipping task ':gradle:classes' as it has no actions.
+[        ] Resolve mutations for :gradle:jar (Thread[#3098,included builds,5,main]) started.
+[        ] :gradle:jar (Thread[#3098,included builds,5,main]) started.
+[        ] > Task :gradle:jar UP-TO-DATE
+[        ] Caching disabled for task ':gradle:jar' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:jar' as it is up-to-date.
+[        ] Settings evaluated using settings file '/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/android/settings.gradle.kts'.
+[        ] Projects loaded. Root project using build file '/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/android/build.gradle.kts'.
+[        ] Included projects: [root project 'android', project ':agus_maps_flutter', project ':app']
+[  +99 ms] > Configure project :app
+[        ] Evaluating project ':app' using build file '/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/android/app/build.gradle.kts'.
+[        ] Resolved plugin [id: 'com.android.application']
+[        ] Resolved plugin [id: 'kotlin-android']
+[        ] Resolved plugin [id: 'dev.flutter.flutter-gradle-plugin']
+[        ] Using default execution profile
+[        ] Build e5b2593c-2aeb-4a1c-bb2c-3a9e07f5b1db is started
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] > Configure project :
+[        ] Evaluating root project 'android' using build file '/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/android/build.gradle.kts'.
+[  +98 ms] > Configure project :agus_maps_flutter
+[        ] Evaluating project ':agus_maps_flutter' using build file '/Users/gilmichael/Desktop/Projects/agus_maps_flutter/android/build.gradle'.
+[        ] Using default execution profile
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/gilmichael/Library/Android/sdk
+[        ] All projects evaluated.
+[        ] Task name matched 'assembleDebug'
+[        ] Selected primary task 'assembleDebug' from project :
+[        ] Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :app:compileDebugKotlin
+[        ] Tasks to be executed: [task ':agus_maps_flutter:preBuild', task ':agus_maps_flutter:preDebugBuild', task ':agus_maps_flutter:preProfileBuild', task ':agus_maps_flutter:configureCMakeDebug[arm64-v8a]', task ':agus_maps_flutter:buildCMakeDebug[arm64-v8a]', task ':agus_maps_flutter:configureCMakeDebug[armeabi-v7a]', task ':agus_maps_flutter:buildCMakeDebug[armeabi-v7a]', task ':agus_maps_flutter:configureCMakeDebug[x86]', task ':agus_maps_flutter:buildCMakeDebug[x86]', task ':agus_maps_flutter:configureCMakeDebug[x86_64]', task ':agus_maps_flutter:buildCMakeDebug[x86_64]', task ':agus_maps_flutter:mergeDebugJniLibFolders', task ':agus_maps_flutter:mergeDebugNativeLibs', task ':agus_maps_flutter:stripDebugDebugSymbols', task ':agus_maps_flutter:copyDebugJniLibsProjectAndLocalJars', task ':agus_maps_flutter:generateDebugResValues', task ':agus_maps_flutter:generateDebugResources', task ':agus_maps_flutter:packageDebugResources', task ':agus_maps_flutter:parseDebugLocalResources', task ':agus_maps_flutter:generateDebugRFile', task ':agus_maps_flutter:extractDebugAnnotations', task ':agus_maps_flutter:extractDeepLinksForAarDebug', task ':agus_maps_flutter:mergeDebugShaders', task ':agus_maps_flutter:compileDebugShaders', task ':agus_maps_flutter:generateDebugAssets', task ':agus_maps_flutter:mergeDebugAssets', task ':agus_maps_flutter:javaPreCompileDebug', task ':agus_maps_flutter:compileDebugJavaWithJavac', task ':agus_maps_flutter:mergeDebugGeneratedProguardFiles', task ':agus_maps_flutter:mergeDebugConsumerProguardFiles', task ':agus_maps_flutter:prepareDebugArtProfile', task ':agus_maps_flutter:prepareLintJarForPublish', task ':agus_maps_flutter:processDebugManifest', task ':agus_maps_flutter:processDebugJavaRes', task ':agus_maps_flutter:mergeDebugJavaResource', task ':agus_maps_flutter:syncDebugLibJars', task ':agus_maps_flutter:writeDebugAarMetadata', task ':agus_maps_flutter:bundleDebugAar', task ':agus_maps_flutter:assembleDebug', task ':app:DebugMinSdkCheck', task ':app:preBuild', task ':app:preDebugBuild', task ':app:mergeDebugNativeDebugMetadata', task ':agus_maps_flutter:bundleLibCompileToJarDebug', task ':app:checkKotlinGradlePluginConfigurationErrors', task ':app:compileFlutterBuildDebug', task ':app:packJniLibsflutterBuildDebug', task ':agus_maps_flutter:compileDebugLibraryResources', task ':app:checkDebugAarMetadata', task ':app:cleanMergeDebugAssets', task ':app:mergeDebugShaders', task ':app:compileDebugShaders', task ':app:generateDebugAssets', task ':app:mergeDebugAssets', task ':app:copyFlutterAssetsDebug', task ':app:generateDebugResValues', task ':app:mapDebugSourceSetPaths', task ':app:generateDebugResources', task ':app:mergeDebugResources', task ':app:packageDebugResources', task ':app:parseDebugLocalResources', task ':app:createDebugCompatibleScreenManifests', task ':agus_maps_flutter:extractDeepLinksDebug', task ':app:extractDeepLinksDebug', task ':app:processDebugMainManifest', task ':app:outputDebugAppLinkSettings', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':app:processDebugResources', task ':app:compileDebugKotlin', task ':app:javaPreCompileDebug', task ':app:compileDebugJavaWithJavac', task ':app:compressDebugAssets', task ':agus_maps_flutter:bundleLibRuntimeToJarDebug', task ':app:desugarDebugFileDependencies', task ':app:dexBuilderDebug', task ':app:mergeDebugGlobalSynthetics', task ':app:processDebugJavaRes', task ':app:mergeDebugJavaResource', task ':app:checkDebugDuplicateClasses', task ':app:mergeExtDexDebug', task ':agus_maps_flutter:bundleLibRuntimeToDirDebug', task ':app:mergeLibDexDebug', task ':app:mergeProjectDexDebug', task ':agus_maps_flutter:copyDebugJniLibsProjectOnly', task ':app:configureCMakeDebug[arm64-v8a]', task ':app:buildCMakeDebug[arm64-v8a]', task ':app:configureCMakeDebug[armeabi-v7a]', task ':app:buildCMakeDebug[armeabi-v7a]', task ':app:configureCMakeDebug[x86_64]', task ':app:buildCMakeDebug[x86_64]', task ':app:mergeDebugJniLibFolders', task ':app:mergeDebugNativeLibs', task ':app:stripDebugDebugSymbols', task ':app:validateSigningDebug', task ':app:writeDebugAppMetadata', task ':app:writeDebugSigningConfigVersions', task ':app:packageDebug', task ':app:createDebugApkListingFileRedirect', task ':app:assembleDebug']
+[        ] Tasks that were excluded: []
+[        ] work action Parameters of IdentityTransform (Thread[#3098,included builds,5,main]) started.
+[        ] work action Parameters of DexingNoClasspathTransform (Thread[#3098,included builds,5,main]) started.
+[        ] work action Parameters of DexingOutputSplitTransform (Thread[#3098,included builds,5,main]) started.
+[        ] work action Parameters of ClassesDirToClassesTransform (Thread[#3103,Execution worker Thread 5,5,main]) started.
+[        ] work action Parameters of DexingOutputSplitTransform (Thread[#3103,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :agus_maps_flutter:preBuild (Thread[#3103,Execution worker Thread 5,5,main]) started.
+[        ] :agus_maps_flutter:preBuild (Thread[#3103,Execution worker Thread 5,5,main]) started.
+[        ] > Task :agus_maps_flutter:preBuild UP-TO-DATE
+[        ] Skipping task ':agus_maps_flutter:preBuild' as it has no actions.
+[        ] Resolve mutations for :agus_maps_flutter:preDebugBuild (Thread[#3103,Execution worker Thread 5,5,main]) started.
+[        ] :agus_maps_flutter:preDebugBuild (Thread[#3103,Execution worker Thread 5,5,main]) started.
+[        ] > Task :agus_maps_flutter:preDebugBuild UP-TO-DATE
+[        ] Skipping task ':agus_maps_flutter:preDebugBuild' as it has no actions.
+[        ] Resolve mutations for :agus_maps_flutter:preProfileBuild (Thread[#3103,Execution worker Thread 5,5,main]) started.
+[        ] :agus_maps_flutter:preProfileBuild (Thread[#3103,Execution worker Thread 5,5,main]) started.
+[        ] > Task :agus_maps_flutter:preProfileBuild UP-TO-DATE
+[        ] Skipping task ':agus_maps_flutter:preProfileBuild' as it has no actions.
+[        ] Resolve mutations for :agus_maps_flutter:configureCMakeDebug[arm64-v8a] (Thread[#3103,Execution worker Thread 5,5,main]) started.
+[        ] :agus_maps_flutter:configureCMakeDebug[arm64-v8a] (Thread[#3103,Execution worker Thread 5,5,main]) started.
+[+1992 ms] > Task :agus_maps_flutter:configureCMakeDebug[arm64-v8a]
+[        ] Caching disabled for task ':agus_maps_flutter:configureCMakeDebug[arm64-v8a]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':agus_maps_flutter:configureCMakeDebug[arm64-v8a]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: /Users/gilmichael/Desktop/Projects/agus_maps_flutter/src/CMakeLists.txt profile|arm64-v8a : Start JSON generation. Platform version: 24 min SDK version: arm64-v8a
+[        ] C/C++: /Users/gilmichael/Desktop/Projects/agus_maps_flutter/src/CMakeLists.txt profile|arm64-v8a : rebuilding JSON /Users/gilmichael/Desktop/Projects/agus_maps_flutter/android/.cxx/Debug/2s5r1c45/arm64-v8a/android_gradle_build.json due to:
+[        ] C/C++: /Users/gilmichael/Desktop/Projects/agus_maps_flutter/src/CMakeLists.txt profile|arm64-v8a : - no fingerprint file, will remove stale configuration folder
+[        ] C/C++: /Users/gilmichael/Desktop/Projects/agus_maps_flutter/src/CMakeLists.txt profile|arm64-v8a : removing stale contents from '/Users/gilmichael/Desktop/Projects/agus_maps_flutter/android/.cxx/Debug/2s5r1c45/arm64-v8a'
+[        ] C/C++: /Users/gilmichael/Desktop/Projects/agus_maps_flutter/src/CMakeLists.txt profile|arm64-v8a : created folder '/Users/gilmichael/Desktop/Projects/agus_maps_flutter/android/.cxx/Debug/2s5r1c45/arm64-v8a'
+[        ] C/C++: /Users/gilmichael/Desktop/Projects/agus_maps_flutter/src/CMakeLists.txt profile|arm64-v8a : executing cmake /Users/gilmichael/Library/Android/sdk/cmake/3.22.1/bin/cmake \
+[        ]   -H/Users/gilmichael/Desktop/Projects/agus_maps_flutter/src \
+[        ]   -DCMAKE_SYSTEM_NAME=Android \
+[        ]   -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
+[        ]   -DCMAKE_SYSTEM_VERSION=24 \
+[        ]   -DANDROID_PLATFORM=android-24 \
+[        ]   -DANDROID_ABI=arm64-v8a \
+[        ]   -DCMAKE_ANDROID_ARCH_ABI=arm64-v8a \
+[        ]   -DANDROID_NDK=/Users/gilmichael/Library/Android/sdk/ndk/27.0.12077973 \
+[        ]   -DCMAKE_ANDROID_NDK=/Users/gilmichael/Library/Android/sdk/ndk/27.0.12077973 \
+[        ]   -DCMAKE_TOOLCHAIN_FILE=/Users/gilmichael/Library/Android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake \
+[        ]   -DCMAKE_MAKE_PROGRAM=/Users/gilmichael/Library/Android/sdk/cmake/3.22.1/bin/ninja \
+[        ]   -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/build/agus_maps_flutter/intermediates/cxx/Debug/2s5r1c45/obj/arm64-v8a \
+[        ]   -DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/build/agus_maps_flutter/intermediates/cxx/Debug/2s5r1c45/obj/arm64-v8a \
+[        ]   -DCMAKE_BUILD_TYPE=Debug \
+[        ]   -B/Users/gilmichael/Desktop/Projects/agus_maps_flutter/android/.cxx/Debug/2s5r1c45/arm64-v8a \
+[        ]   -GNinja
+[        ] C/C++: /Users/gilmichael/Desktop/Projects/agus_maps_flutter/src/CMakeLists.txt profile|arm64-v8a : /Users/gilmichael/Library/Android/sdk/cmake/3.22.1/bin/cmake \
+[        ]   -H/Users/gilmichael/Desktop/Projects/agus_maps_flutter/src \
+[        ]   -DCMAKE_SYSTEM_NAME=Android \
+[        ]   -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
+[        ]   -DCMAKE_SYSTEM_VERSION=24 \
+[        ]   -DANDROID_PLATFORM=android-24 \
+[        ]   -DANDROID_ABI=arm64-v8a \
+[        ]   -DCMAKE_ANDROID_ARCH_ABI=arm64-v8a \
+[        ]   -DANDROID_NDK=/Users/gilmichael/Library/Android/sdk/ndk/27.0.12077973 \
+[        ]   -DCMAKE_ANDROID_NDK=/Users/gilmichael/Library/Android/sdk/ndk/27.0.12077973 \
+[        ]   -DCMAKE_TOOLCHAIN_FILE=/Users/gilmichael/Library/Android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake \
+[        ]   -DCMAKE_MAKE_PROGRAM=/Users/gilmichael/Library/Android/sdk/cmake/3.22.1/bin/ninja \
+[        ]   -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/build/agus_maps_flutter/intermediates/cxx/Debug/2s5r1c45/obj/arm64-v8a \
+[        ]   -DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/build/agus_maps_flutter/intermediates/cxx/Debug/2s5r1c45/obj/arm64-v8a \
+[        ]   -DCMAKE_BUILD_TYPE=Debug \
+[        ]   -B/Users/gilmichael/Desktop/Projects/agus_maps_flutter/android/.cxx/Debug/2s5r1c45/arm64-v8a \
+[        ]   -GNinja
+[        ] Starting process 'command '/Users/gilmichael/Library/Android/sdk/cmake/3.22.1/bin/cmake''. Working directory: /Users/gilmichael/Desktop/Projects/agus_maps_flutter/android Command: /Users/gilmichael/Library/Android/sdk/cmake/3.22.1/bin/cmake -H/Users/gilmichael/Desktop/Projects/agus_maps_flutter/src -DCMAKE_SYSTEM_NAME=Android -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_SYSTEM_VERSION=24 -DANDROID_PLATFORM=android-24 -DANDROID_ABI=arm64-v8a -DCMAKE_ANDROID_ARCH_ABI=arm64-v8a -DANDROID_NDK=/Users/gilmichael/Library/Android/sdk/ndk/27.0.12077973 -DCMAKE_ANDROID_NDK=/Users/gilmichael/Library/Android/sdk/ndk/27.0.12077973 -DCMAKE_TOOLCHAIN_FILE=/Users/gilmichael/Library/Android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake -DCMAKE_MAKE_PROGRAM=/Users/gilmichael/Library/Android/sdk/cmake/3.22.1/bin/ninja -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/build/agus_maps_flutter/intermediates/cxx/Debug/2s5r1c45/obj/arm64-v8a -DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/build/agus_maps_flutter/intermediates/cxx/Debug/2s5r1c45/obj/arm64-v8a -DCMAKE_BUILD_TYPE=Debug -B/Users/gilmichael/Desktop/Projects/agus_maps_flutter/android/.cxx/Debug/2s5r1c45/arm64-v8a -GNinja
+[        ] Successfully started process 'command '/Users/gilmichael/Library/Android/sdk/cmake/3.22.1/bin/cmake''
+[+4297 ms] C/C++: C compiler: Clang
+[+9099 ms] C/C++: /Users/gilmichael/Desktop/Projects/agus_maps_flutter/src/CMakeLists.txt profile|arm64-v8a : Received process result: 0
+[ +100 ms] C/C++: /Users/gilmichael/Desktop/Projects/agus_maps_flutter/src/CMakeLists.txt profile|arm64-v8a : Exiting generation of /Users/gilmichael/Desktop/Projects/agus_maps_flutter/android/.cxx/Debug/2s5r1c45/arm64-v8a/compile_commands.json.bin normally
+[        ] C/C++: /Users/gilmichael/Desktop/Projects/agus_maps_flutter/src/CMakeLists.txt profile|arm64-v8a : done executing cmake
+[        ] C/C++: /Users/gilmichael/Desktop/Projects/agus_maps_flutter/src/CMakeLists.txt profile|arm64-v8a : hard linked /Users/gilmichael/Desktop/Projects/agus_maps_flutter/android/.cxx/Debug/2s5r1c45/arm64-v8a/compile_commands.json to /Users/gilmichael/Desktop/Projects/agus_maps_flutter/android/.cxx/tools/profile/arm64-v8a/compile_commands.json
+[        ] C/C++: /Users/gilmichael/Desktop/Projects/agus_maps_flutter/src/CMakeLists.txt profile|arm64-v8a : JSON generation completed without problems
+[        ] C/C++: /Users/gilmichael/Desktop/Projects/agus_maps_flutter/src/CMakeLists.txt profile|arm64-v8a : Writing build model to /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/build/agus_maps_flutter/intermediates/cxx/Debug/2s5r1c45/logs/arm64-v8a/build_model.json
+[        ] Resolve mutations for :agus_maps_flutter:buildCMakeDebug[arm64-v8a] (Thread[#3103,Execution worker Thread 5,5,main]) started.
+[        ] :agus_maps_flutter:buildCMakeDebug[arm64-v8a] (Thread[#3103,Execution worker Thread 5,5,main]) started.
+[+1998 ms] > Task :agus_maps_flutter:buildCMakeDebug[arm64-v8a]
+[        ] Caching disabled for task ':agus_maps_flutter:buildCMakeDebug[arm64-v8a]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':agus_maps_flutter:buildCMakeDebug[arm64-v8a]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: starting build
+[        ] C/C++: reading expected JSONs
+[        ] C/C++: done reading expected JSONs
+[        ] C/C++: executing build commands for targets that produce .so files or executables
+[        ] C/C++: evaluate miniconfig
+[        ] C/C++: evaluate library routing (arm64-v8a)
+[        ] C/C++: not building target library routing because static libraries are not build by default.
+[        ] C/C++: evaluate library agg (arm64-v8a)
+[        ] C/C++: not building target library agg because static libraries are not build by default.
+[        ] C/C++: evaluate library editor (arm64-v8a)
+[        ] C/C++: not building target library editor because static libraries are not build by default.
+[        ] C/C++: evaluate library drape (arm64-v8a)
+[        ] C/C++: not building target library drape because static libraries are not build by default.
+[        ] C/C++: evaluate library traffic (arm64-v8a)
+[        ] C/C++: not building target library traffic because static libraries are not build by default.
+[        ] C/C++: evaluate library pugixml (arm64-v8a)
+[        ] C/C++: not building target library pugixml because static libraries are not build by default.
+[        ] C/C++: evaluate library descriptions (arm64-v8a)
+[        ] C/C++: not building target library descriptions because static libraries are not build by default.
+[        ] C/C++: evaluate library stb_image (arm64-v8a)
+[        ] C/C++: not building target library stb_image because static libraries are not build by default.
+[        ] C/C++: evaluate library mwm_diff (arm64-v8a)
+[        ] C/C++: not building target library mwm_diff because static libraries are not build by default.
+[        ] C/C++: evaluate library routing_common (arm64-v8a)
+[        ] C/C++: not building target library routing_common because static libraries are not build by default.
+[        ] C/C++: evaluate library kml (arm64-v8a)
+[        ] C/C++: not building target library kml because static libraries are not build by default.
+[        ] C/C++: evaluate library harfbuzz (arm64-v8a)
+[        ] C/C++: not building target library harfbuzz because static libraries are not build by default.
+[        ] C/C++: evaluate library platform (arm64-v8a)
+[        ] C/C++: not building target library platform because static libraries are not build by default.
+[        ] C/C++: evaluate library fonts_tool (arm64-v8a)
+[        ] C/C++: building target executable fonts_tool because no targets are specified.
+[        ] C/C++: evaluate library mwm_diff_tool (arm64-v8a)
+[        ] C/C++: building target executable mwm_diff_tool because no targets are specified.
+[        ] C/C++: evaluate library shaders (arm64-v8a)
+[        ] C/C++: not building target library shaders because static libraries are not build by default.
+[        ] C/C++: evaluate library transit (arm64-v8a)
+[        ] C/C++: not building target library transit because static libraries are not build by default.
+[        ] C/C++: evaluate library tracking (arm64-v8a)
+[        ] C/C++: not building target library tracking because static libraries are not build by default.
+[        ] C/C++: evaluate library expat (arm64-v8a)
+[        ] C/C++: not building target library expat because static libraries are not build by default.
+[        ] C/C++: evaluate library opening_hours (arm64-v8a)
+[        ] C/C++: not building target library opening_hours because static libraries are not build by default.
+[        ] C/C++: evaluate library drape_frontend (arm64-v8a)
+[        ] C/C++: not building target library drape_frontend because static libraries are not build by default.
+[        ] C/C++: evaluate library indexer (arm64-v8a)
+[        ] C/C++: not building target library indexer because static libraries are not build by default.
+[        ] C/C++: evaluate library coding (arm64-v8a)
+[        ] C/C++: not building target library coding because static libraries are not build by default.
+[        ] C/C++: evaluate library agus_maps_flutter (arm64-v8a)
+[        ] C/C++: building target library agus_maps_flutter because no targets are specified.
+[        ] C/C++: evaluate library cppjansson (arm64-v8a)
+[        ] C/C++: not building target library cppjansson because static libraries are not build by default.
+[        ] C/C++: evaluate library jansson (arm64-v8a)
+[        ] C/C++: not building target library jansson because static libraries are not build by default.
+[        ] C/C++: evaluate library openlocationcode (arm64-v8a)
+[        ] C/C++: not building target library openlocationcode because static libraries are not build by default.
+[        ] C/C++: evaluate library icuuc (arm64-v8a)
+[        ] C/C++: not building target library icuuc because static libraries are not build by default.
+[        ] C/C++: evaluate library ge0 (arm64-v8a)
+[        ] C/C++: not building target library ge0 because static libraries are not build by default.
+[        ] C/C++: evaluate library base (arm64-v8a)
+[        ] C/C++: not building target library base because static libraries are not build by default.
+[        ] C/C++: evaluate library vulkan_wrapper (arm64-v8a)
+[        ] C/C++: not building target library vulkan_wrapper because static libraries are not build by default.
+[        ] C/C++: evaluate library freetype (arm64-v8a)
+[        ] C/C++: not building target library freetype because static libraries are not build by default.
+[        ] C/C++: evaluate library bsdiff (arm64-v8a)
+[        ] C/C++: not building target library bsdiff because static libraries are not build by default.
+[        ] C/C++: evaluate library map (arm64-v8a)
+[        ] C/C++: not building target library map because static libraries are not build by default.
+[        ] C/C++: evaluate library gflags_nothreads_static (arm64-v8a)
+[        ] C/C++: not building target library gflags_nothreads_static because static libraries are not build by default.
+[        ] C/C++: evaluate library succinct (arm64-v8a)
+[        ] C/C++: not building target library succinct because static libraries are not build by default.
+[        ] C/C++: evaluate library protobuf (arm64-v8a)
+[        ] C/C++: not building target library protobuf because static libraries are not build by default.
+[        ] C/C++: evaluate library storage (arm64-v8a)
+[        ] C/C++: not building target library storage because static libraries are not build by default.
+[        ] C/C++: evaluate library geometry (arm64-v8a)
+[        ] C/C++: not building target library geometry because static libraries are not build by default.
+[        ] C/C++: evaluate library icui18n (arm64-v8a)
+[        ] C/C++: not building target library icui18n because static libraries are not build by default.
+[        ] C/C++: evaluate library search (arm64-v8a)
+[        ] C/C++: not building target library search because static libraries are not build by default.
+[        ] C/C++: evaluate library minizip (arm64-v8a)
+[        ] C/C++: not building target library minizip because static libraries are not build by default.
+[        ] C/C++: about to build targets agus_maps_flutter, fonts_tool, mwm_diff_tool
+[        ] C/C++: Build multiple targets fonts_tool_arm64-v8a mwm_diff_tool_arm64-v8a agus_maps_flutter_arm64-v8a
+[        ] C/C++: /Users/gilmichael/Library/Android/sdk/cmake/3.22.1/bin/ninja \
+[        ]   -C \
+[        ]   /Users/gilmichael/Desktop/Projects/agus_maps_flutter/android/.cxx/Debug/2s5r1c45/arm64-v8a \
+[        ]   agus_maps_flutter \
+[        ]   fonts_tool \
+[        ]   mwm_diff_tool
+[        ] Starting process 'command '/Users/gilmichael/Library/Android/sdk/cmake/3.22.1/bin/ninja''. Working directory: /Users/gilmichael/Desktop/Projects/agus_maps_flutter/android Command: /Users/gilmichael/Library/Android/sdk/cmake/3.22.1/bin/ninja -C /Users/gilmichael/Desktop/Projects/agus_maps_flutter/android/.cxx/Debug/2s5r1c45/arm64-v8a agus_maps_flutter fonts_tool mwm_diff_tool
+[        ] Successfully started process 'command '/Users/gilmichael/Library/Android/sdk/cmake/3.22.1/bin/ninja''
+[+33607 ms] C/C++: ninja: Entering directory `/Users/gilmichael/Desktop/Projects/agus_maps_flutter/android/.cxx/Debug/2s5r1c45/arm64-v8a'
+[   +2 ms] C/C++: : && /Users/gilmichael/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android24 --sysroot=/Users/gilmichael/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info -fuse-ld=lld    -Xlinker --build-id=none build/comaps/libs/mwm_diff/mwm_diff_tool/CMakeFiles/mwm_diff_tool.dir/Unity/unity_0_cxx.cxx.o -o build/comaps/mwm_diff_tool  build/comaps/libs/mwm_diff/libmwm_diff.a  build/comaps/3party/bsdiff-courgette/libbsdiff.a  build/comaps/libs/coding/libcoding.a  build/comaps/3party/expat/expat/libexpat.a  -lm  build/comaps/libs/cppjansson/libcppjansson.a  build/comaps/libs/base/libbase.a  -pthread  build/comaps/3party/jansson/jansson/lib/libjansson.a  build/comaps/3party/succinct/libsuccinct.a  build/comaps/3party/icu/libicui18n.a  build/comaps/3party/icu/libicuuc.a  build/comaps/3party/minizip/libminizip.a  /Users/gilmichael/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/24/libz.so  -latomic -lm && :
+[        ] C/C++: ld.lld: error: undefined symbol: AndroidThreadAttachToJVM()
+[        ] C/C++: >>> referenced by thread.cpp:23 (/Users/gilmichael/Desktop/Projects/agus_maps_flutter/thirdparty/comaps/libs/base/thread.cpp:23)
+[        ] C/C++: >>>               unity_0_cxx.cxx.o:(threads::(anonymous namespace)::RunRoutine(std::__ndk1::shared_ptr<threads::IRoutine>)) in archive build/comaps/libs/base/libbase.a
+[        ] C/C++: >>> referenced by thread.cpp:105 (/Users/gilmichael/Desktop/Projects/agus_maps_flutter/thirdparty/comaps/libs/base/thread.cpp:105)
+[        ] C/C++: >>>               unity_0_cxx.cxx.o:(threads::SimpleThread::ThreadFunc(std::__ndk1::function<void ()>&&)) in archive build/comaps/libs/base/libbase.a
+[        ] C/C++: ld.lld: error: undefined symbol: AndroidThreadDetachFromJVM()
+[        ] C/C++: >>> referenced by thread.cpp:29 (/Users/gilmichael/Desktop/Projects/agus_maps_flutter/thirdparty/comaps/libs/base/thread.cpp:29)
+[        ] C/C++: >>>               unity_0_cxx.cxx.o:(threads::(anonymous namespace)::RunRoutine(std::__ndk1::shared_ptr<threads::IRoutine>)) in archive build/comaps/libs/base/libbase.a
+[        ] C/C++: >>> referenced by thread.cpp:116 (/Users/gilmichael/Desktop/Projects/agus_maps_flutter/thirdparty/comaps/libs/base/thread.cpp:116)
+[        ] C/C++: >>>               unity_0_cxx.cxx.o:(threads::SimpleThread::ThreadFunc(std::__ndk1::function<void ()>&&)) in archive build/comaps/libs/base/libbase.a
+[+6386 ms] C/C++: clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+[        ] C/C++: [173/215] Building CXX object build/comaps/libs/geometry/CMakeFiles/geometry.dir/Unity/unity_0_cxx.cxx.o
+[        ] C/C++: [174/215] Building CXX object build/comaps/libs/drape/CMakeFiles/drape.dir/Unity/unity_0_cxx.cxx.o
+[        ] C/C++: [175/215] Building CXX object build/comaps/libs/platform/CMakeFiles/platform.dir/Unity/unity_1_cxx.cxx.o
+[        ] C/C++: [176/215] Building CXX object build/comaps/libs/drape/CMakeFiles/drape.dir/Unity/unity_1_cxx.cxx.o
+[        ] C/C++: [177/215] Building CXX object build/comaps/libs/indexer/CMakeFiles/indexer.dir/Unity/unity_2_cxx.cxx.o
+[        ] C/C++: [178/215] Building CXX object build/comaps/libs/kml/CMakeFiles/kml.dir/Unity/unity_0_cxx.cxx.o
+[        ] C/C++: [179/215] Building CXX object build/comaps/3party/harfbuzz/CMakeFiles/harfbuzz.dir/Unity/unity_0_cxx.cxx.o
+[        ] C/C++: [180/215] Building CXX object build/comaps/libs/indexer/CMakeFiles/indexer.dir/Unity/unity_1_cxx.cxx.o
+[        ] C/C++: In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/android/.cxx/Debug/2s5r1c45/arm64-v8a/build/comaps/libs/indexer/CMakeFiles/indexer.dir/Unity/unity_1_cxx.cxx:47:
+[        ] C/C++: /Users/gilmichael/Desktop/Projects/agus_maps_flutter/thirdparty/comaps/libs/indexer/road_shields_parser.cpp:407:24: warning: private field 'm_defaultType' is not used [-Wunused-private-field]
+[        ] C/C++:   407 |   RoadShieldType const m_defaultType;
+[        ] C/C++:       |                        ^
+[        ] C/C++: 1 warning generated.
+[+4498 ms] C/C++: Received process result: 1
+[        ] > Task :agus_maps_flutter:buildCMakeDebug[arm64-v8a] FAILED
+[        ] Build e5b2593c-2aeb-4a1c-bb2c-3a9e07f5b1db is closed
+[        ] FAILURE: Build failed with an exception.
+[   +2 ms] * What went wrong:
+[        ] Execution failed for task ':agus_maps_flutter:buildCMakeDebug[arm64-v8a]'.
+[        ] > com.android.ide.common.process.ProcessException: ninja: Entering directory `/Users/gilmichael/Desktop/Projects/agus_maps_flutter/android/.cxx/Debug/2s5r1c45/arm64-v8a'
+[        ]   [1/215] Building C object build/comaps/3party/expat/expat/CMakeFiles/expat.dir/Unity/unity_0_c.c.o
+[        ]   [2/215] Linking C static library build/comaps/3party/expat/expat/libexpat.a
+[        ]   [3/215] Building C object build/comaps/3party/jansson/jansson/CMakeFiles/jansson.dir/Unity/unity_0_c.c.o
+[        ]   [4/215] Linking C static library build/comaps/3party/jansson/jansson/lib/libjansson.a
+[        ]   [5/215] Building CXX object build/comaps/3party/pugixml/CMakeFiles/pugixml.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [6/215] Linking CXX static library build/comaps/3party/pugixml/libpugixml.a
+[        ]   [7/215] Building CXX object build/comaps/libs/traffic/CMakeFiles/traffic.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [8/215] Building CXX object build/comaps/libs/routing_common/CMakeFiles/routing_common.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [9/215] Building CXX object build/comaps/3party/protobuf/CMakeFiles/protobuf.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [10/215] Linking CXX static library build/comaps/3party/protobuf/libprotobuf.a
+[        ]   [11/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/appendable.cpp.o
+[        ]   [12/215] Building C object build/comaps/3party/freetype/freetype/CMakeFiles/freetype.dir/Unity/unity_1_c.c.o
+[        ]   [13/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/bmpset.cpp.o
+[        ]   [14/215] Building C object build/comaps/3party/freetype/freetype/CMakeFiles/freetype.dir/Unity/unity_0_c.c.o
+[        ]   [15/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/bytesinkutil.cpp.o
+[        ]   [16/215] Linking C static library build/comaps/3party/freetype/freetype/libfreetyped.a
+[        ]   [17/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/bytestream.cpp.o
+[        ]   [18/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/bytestrie.cpp.o
+[        ]   [19/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/charstr.cpp.o
+[        ]   [20/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/characterproperties.cpp.o
+[        ]   [21/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/cmemory.cpp.o
+[        ]   [22/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/cstring.cpp.o
+[        ]   [23/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/edits.cpp.o
+[        ]   [24/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/emojiprops.cpp.o
+[        ]   [25/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/loadednormalizer2impl.cpp.o
+[        ]   [26/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/localebuilder.cpp.o
+[        ]   [27/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/loclikely.cpp.o
+[        ]   [28/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/locid.cpp.o
+[        ]   [29/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/loclikelysubtags.cpp.o
+[        ]   [30/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/locmap.cpp.o
+[        ]   [31/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/locutil.cpp.o
+[        ]   [32/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/lsr.cpp.o
+[        ]   [33/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/parsepos.cpp.o
+[        ]   [34/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/normalizer2.cpp.o
+[        ]   [35/215] Building CXX object build/comaps/libs/transit/CMakeFiles/transit.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [36/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/normalizer2impl.cpp.o
+[        ]   [37/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/patternprops.cpp.o
+[        ]   [38/215] Building CXX object build/comaps/libs/storage/CMakeFiles/storage.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [39/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/resbund_cnv.cpp.o
+[        ]   [40/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/propname.cpp.o
+[        ]   [41/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/resbund.cpp.o
+[        ]   [42/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/putil.cpp.o
+[        ]   [43/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/resource.cpp.o
+[        ]   [44/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uarrsort.cpp.o
+[        ]   [45/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ruleiter.cpp.o
+[        ]   [46/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ubidi.cpp.o
+[        ]   [47/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/stringpiece.cpp.o
+[        ]   [48/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ubidiln.cpp.o
+[        ]   [49/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ubidi_props.cpp.o
+[        ]   [50/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ubidiwrt.cpp.o
+[        ]   [51/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uchar.cpp.o
+[        ]   [52/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ucase.cpp.o
+[        ]   [53/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ucharstrie.cpp.o
+[        ]   [54/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ucharstrieiterator.cpp.o
+[        ]   [55/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ucmndata.cpp.o
+[        ]   [56/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ucln_cmn.cpp.o
+[        ]   [57/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ucptrie.cpp.o
+[        ]   [58/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/udatamem.cpp.o
+[        ]   [59/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/udataswp.cpp.o
+[        ]   [60/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uenum.cpp.o
+[        ]   [61/215] Building CXX object build/comaps/libs/routing/CMakeFiles/routing.dir/Unity/unity_3_cxx.cxx.o
+[        ]   [62/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uhash.cpp.o
+[        ]   [63/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/udata.cpp.o
+[        ]   [64/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uinvchar.cpp.o
+[        ]   [65/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uhash_us.cpp.o
+[        ]   [66/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/umath.cpp.o
+[        ]   [67/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/umapfile.cpp.o
+[        ]   [68/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uloc.cpp.o
+[        ]   [69/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/unifilt.cpp.o
+[        ]   [70/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/unifunct.cpp.o
+[        ]   [71/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uloc_tag.cpp.o
+[        ]   [72/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/umutablecptrie.cpp.o
+[        ]   [73/215] Building CXX object build/comaps/libs/search/CMakeFiles/search.dir/Unity/unity_1_cxx.cxx.o
+[        ]   [74/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uloc_keytype.cpp.o
+[        ]   [75/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/umutex.cpp.o
+[        ]   [76/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/unames.cpp.o
+[        ]   [77/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uniset_closure.cpp.o
+[        ]   [78/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uniset.cpp.o
+[        ]   [79/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/unisetspan.cpp.o
+[        ]   [80/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uniset_props.cpp.o
+[        ]   [81/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uobject.cpp.o
+[        ]   [82/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/unistr_case.cpp.o
+[        ]   [83/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/unistr_case_locale.cpp.o
+[        ]   [84/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/unistr.cpp.o
+[        ]   [85/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ushape.cpp.o
+[        ]   [86/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uprops.cpp.o
+[        ]   [87/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uscript.cpp.o
+[        ]   [88/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uscript_props.cpp.o
+[        ]   [89/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uresdata.cpp.o
+[        ]   [90/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uset.cpp.o
+[        ]   [91/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uresbund.cpp.o
+[        ]   [92/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/utf_impl.cpp.o
+[        ]   [93/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ustring.cpp.o
+[        ]   [94/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ustrtrns.cpp.o
+[        ]   [95/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ustrenum.cpp.o
+[        ]   [96/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ustrcase_locale.cpp.o
+[        ]   [97/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ustrcase.cpp.o
+[        ]   [98/215] Building CXX object build/comaps/libs/routing/CMakeFiles/routing.dir/Unity/unity_2_cxx.cxx.o
+[        ]   [99/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/util.cpp.o
+[        ]   [100/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/util_props.cpp.o
+[        ]   [101/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/utrace.cpp.o
+[        ]   [102/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/wintz.cpp.o
+[        ]   [103/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/utrie2.cpp.o
+[        ]   [104/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/utrie_swap.cpp.o
+[        ]   [105/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uvector.cpp.o
+[        ]   [106/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uvectr32.cpp.o
+[        ]   [107/215] Linking CXX static library build/comaps/3party/icu/libicuuc.a
+[        ]   [108/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/cpdtrans.cpp.o
+[        ]   [109/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/casetrn.cpp.o
+[        ]   [110/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/esctrn.cpp.o
+[        ]   [111/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/funcrepl.cpp.o
+[        ]   [112/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/name2uni.cpp.o
+[        ]   [113/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/anytrans.cpp.o
+[        ]   [114/215] Building CXX object build/comaps/libs/routing/CMakeFiles/routing.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [115/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/nortrans.cpp.o
+[        ]   [116/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/nultrans.cpp.o
+[        ]   [117/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/quant.cpp.o
+[        ]   [118/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/rbt.cpp.o
+[        ]   [119/215] Building CXX object build/comaps/libs/search/CMakeFiles/search.dir/Unity/unity_2_cxx.cxx.o
+[        ]   [120/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/rbt_data.cpp.o
+[        ]   [121/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/rbt_pars.cpp.o
+[        ]   [122/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/remtrans.cpp.o
+[        ]   [123/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/rbt_set.cpp.o
+[        ]   [124/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/rbt_rule.cpp.o
+[        ]   [125/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/strmatch.cpp.o
+[        ]   [126/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/strrepl.cpp.o
+[        ]   [127/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/tolowtrn.cpp.o
+[        ]   [128/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/toupptrn.cpp.o
+[        ]   [129/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/titletrn.cpp.o
+[        ]   [130/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/uni2name.cpp.o
+[        ]   [131/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/ucln_in.cpp.o
+[        ]   [132/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/unesctrn.cpp.o
+[        ]   [133/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/stubdata/stubdata.cpp.o
+[        ]   [134/215] Building CXX object build/comaps/3party/bsdiff-courgette/CMakeFiles/bsdiff.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [135/215] Building CXX object build/comaps/3party/agg/CMakeFiles/agg.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [136/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/transreg.cpp.o
+[        ]   [137/215] Linking CXX static library build/comaps/3party/bsdiff-courgette/libbsdiff.a
+[        ]   [138/215] Building C object build/comaps/3party/minizip/CMakeFiles/minizip.dir/Unity/unity_0_c.c.o
+[        ]   [139/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/tridpars.cpp.o
+[        ]   [140/215] Linking CXX static library build/comaps/3party/agg/libagg.a
+[        ]   [141/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/translit.cpp.o
+[        ]   [142/215] Building CXX object build/comaps/3party/vulkan_wrapper/CMakeFiles/vulkan_wrapper.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [143/215] Building CXX object build/comaps/libs/search/CMakeFiles/search.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [144/215] Linking CXX static library build/comaps/3party/icu/libicui18n.a
+[        ]   [145/215] Building CXX object build/comaps/3party/minizip/CMakeFiles/minizip.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [146/215] Linking CXX static library build/comaps/3party/vulkan_wrapper/libvulkan_wrapper.a
+[        ]   [147/215] Building CXX object build/comaps/libs/base/CMakeFiles/base.dir/fast_math.cpp.o
+[        ]   [148/215] Building CXX object build/comaps/3party/stb_image/CMakeFiles/stb_image.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [149/215] Linking CXX static library build/comaps/3party/minizip/libminizip.a
+[        ]   [150/215] Linking CXX static library build/comaps/3party/stb_image/libstb_image.a
+[        ]   [151/215] Building CXX object build/comaps/3party/open-location-code/CMakeFiles/openlocationcode.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [152/215] Linking CXX static library build/comaps/3party/open-location-code/libopenlocationcode.a
+[        ]   [153/215] Building CXX object build/comaps/libs/base/CMakeFiles/base.dir/Unity/unity_1_cxx.cxx.o
+[   +1 ms]   [154/215] Building CXX object build/comaps/libs/coding/CMakeFiles/coding.dir/Unity/unity_1_cxx.cxx.o
+[        ]   [155/215] Building CXX object build/comaps/3party/succinct/CMakeFiles/succinct.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [156/215] Linking CXX static library build/comaps/3party/succinct/libsuccinct.a
+[        ]   [157/215] Building CXX object build/comaps/libs/routing/CMakeFiles/routing.dir/Unity/unity_1_cxx.cxx.o
+[        ]   [158/215] Building CXX object build/comaps/libs/drape/fonts_tool/CMakeFiles/fonts_tool.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [159/215] Building CXX object build/comaps/libs/descriptions/CMakeFiles/descriptions.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [160/215] Building CXX object build/comaps/libs/drape/CMakeFiles/drape.dir/Unity/unity_2_cxx.cxx.o
+[        ]   [161/215] Building CXX object build/comaps/libs/mwm_diff/CMakeFiles/mwm_diff.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [162/215] Building CXX object build/comaps/libs/base/CMakeFiles/base.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [163/215] Building CXX object build/comaps/libs/mwm_diff/mwm_diff_tool/CMakeFiles/mwm_diff_tool.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [164/215] Linking CXX static library build/comaps/libs/base/libbase.a
+[        ]   [165/215] Building CXX object build/comaps/libs/coding/CMakeFiles/coding.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [166/215] Building CXX object build/comaps/libs/ge0/CMakeFiles/ge0.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [167/215] Building CXX object build/comaps/libs/indexer/CMakeFiles/indexer.dir/drules_struct.pb.cc.o
+[        ]   [168/215] Building CXX object build/comaps/libs/cppjansson/CMakeFiles/cppjansson.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [169/215] Linking CXX static library build/comaps/libs/cppjansson/libcppjansson.a
+[        ]   [170/215] Linking CXX static library build/comaps/libs/coding/libcoding.a
+[        ]   [171/215] Linking CXX static library build/comaps/libs/mwm_diff/libmwm_diff.a
+[        ]   [172/215] Linking CXX executable build/comaps/mwm_diff_tool
+[        ]   FAILED: build/comaps/mwm_diff_tool 
+[        ]   : && /Users/gilmichael/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android24 --sysroot=/Users/gilmichael/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info -fuse-ld=lld    -Xlinker --build-id=none build/comaps/libs/mwm_diff/mwm_diff_tool/CMakeFiles/mwm_diff_tool.dir/Unity/unity_0_cxx.cxx.o -o build/comaps/mwm_diff_tool  build/comaps/libs/mwm_diff/libmwm_diff.a  build/comaps/3party/bsdiff-courgette/libbsdiff.a  build/comaps/libs/coding/libcoding.a  build/comaps/3party/expat/expat/libexpat.a  -lm  build/comaps/libs/cppjansson/libcppjansson.a  build/comaps/libs/base/libbase.a  -pthread  build/comaps/3party/jansson/jansson/lib/libjansson.a  build/comaps/3party/succinct/libsuccinct.a  build/comaps/3party/icu/libicui18n.a  build/comaps/3party/icu/libicuuc.a  build/comaps/3party/minizip/libminizip.a  /Users/gilmichael/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/24/libz.so  -latomic -lm && :
+[        ]   ld.lld: error: undefined symbol: AndroidThreadAttachToJVM()
+[        ]   >>> referenced by thread.cpp:23 (/Users/gilmichael/Desktop/Projects/agus_maps_flutter/thirdparty/comaps/libs/base/thread.cpp:23)
+[        ]   >>>               unity_0_cxx.cxx.o:(threads::(anonymous namespace)::RunRoutine(std::__ndk1::shared_ptr<threads::IRoutine>)) in archive build/comaps/libs/base/libbase.a
+[        ]   >>> referenced by thread.cpp:105 (/Users/gilmichael/Desktop/Projects/agus_maps_flutter/thirdparty/comaps/libs/base/thread.cpp:105)
+[        ]   >>>               unity_0_cxx.cxx.o:(threads::SimpleThread::ThreadFunc(std::__ndk1::function<void ()>&&)) in archive build/comaps/libs/base/libbase.a
+[        ]   ld.lld: error: undefined symbol: AndroidThreadDetachFromJVM()
+[        ]   >>> referenced by thread.cpp:29 (/Users/gilmichael/Desktop/Projects/agus_maps_flutter/thirdparty/comaps/libs/base/thread.cpp:29)
+[        ]   >>>               unity_0_cxx.cxx.o:(threads::(anonymous namespace)::RunRoutine(std::__ndk1::shared_ptr<threads::IRoutine>)) in archive build/comaps/libs/base/libbase.a
+[        ]   >>> referenced by thread.cpp:116 (/Users/gilmichael/Desktop/Projects/agus_maps_flutter/thirdparty/comaps/libs/base/thread.cpp:116)
+[        ]   >>>               unity_0_cxx.cxx.o:(threads::SimpleThread::ThreadFunc(std::__ndk1::function<void ()>&&)) in archive build/comaps/libs/base/libbase.a
+[        ]   clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+[        ]   [173/215] Building CXX object build/comaps/libs/geometry/CMakeFiles/geometry.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [174/215] Building CXX object build/comaps/libs/drape/CMakeFiles/drape.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [175/215] Building CXX object build/comaps/libs/platform/CMakeFiles/platform.dir/Unity/unity_1_cxx.cxx.o
+[        ]   [176/215] Building CXX object build/comaps/libs/drape/CMakeFiles/drape.dir/Unity/unity_1_cxx.cxx.o
+[        ]   [177/215] Building CXX object build/comaps/libs/indexer/CMakeFiles/indexer.dir/Unity/unity_2_cxx.cxx.o
+[        ]   [178/215] Building CXX object build/comaps/libs/kml/CMakeFiles/kml.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [179/215] Building CXX object build/comaps/3party/harfbuzz/CMakeFiles/harfbuzz.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [180/215] Building CXX object build/comaps/libs/indexer/CMakeFiles/indexer.dir/Unity/unity_1_cxx.cxx.o
+[        ]   In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/android/.cxx/Debug/2s5r1c45/arm64-v8a/build/comaps/libs/indexer/CMakeFiles/indexer.dir/Unity/unity_1_cxx.cxx:47:
+[        ]   /Users/gilmichael/Desktop/Projects/agus_maps_flutter/thirdparty/comaps/libs/indexer/road_shields_parser.cpp:407:24: warning: private field 'm_defaultType' is not used [-Wunused-private-field]
+[        ]     407 |   RoadShieldType const m_defaultType;
+[        ]         |                        ^
+[        ]   1 warning generated.
+[        ]   [181/215] Building CXX object build/comaps/libs/indexer/CMakeFiles/indexer.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [182/215] Building CXX object build/comaps/3party/opening_hours/CMakeFiles/opening_hours.dir/Unity/unity_0_cxx.cxx.o
+[        ]   [183/215] Building CXX object build/comaps/libs/editor/CMakeFiles/editor.dir/Unity/unity_0_cxx.cxx.o
+[        ]   ninja: build stopped: subcommand failed.
+[        ]   C++ build system [build] failed while executing:
+[        ]       /Users/gilmichael/Library/Android/sdk/cmake/3.22.1/bin/ninja \
+[        ]         -C \
+[        ]         /Users/gilmichael/Desktop/Projects/agus_maps_flutter/android/.cxx/Debug/2s5r1c45/arm64-v8a \
+[        ]         agus_maps_flutter \
+[        ]         fonts_tool \
+[        ]         mwm_diff_tool
+[        ]     from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/android
+[        ] * Try:
+[        ] > Run with --debug option to get more log output.
+[        ] > Run with --scan to get full insights.
+[        ] > Get more help at https://help.gradle.org.
+[        ] * Exception is:
+[        ] org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':agus_maps_flutter:buildCMakeDebug[arm64-v8a]'.
+[        ] 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteActionsTaskExecuter.java:130)
+[        ] 	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:293)
+[        ] 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:128)
+[        ] 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:116)
+[        ] 	at org.gradle.api.internal.tasks.execution.ProblemsTaskPathTrackingTaskExecuter.execute(ProblemsTaskPathTrackingTaskExecuter.java:41)
+[        ] 	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+[        ] 	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+[        ] 	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+[        ] 	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+[        ] 	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+[        ] 	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+[        ] 	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:85)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+[        ] 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+[        ] 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+[        ] 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+[        ] 	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
+[        ] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[        ] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[        ] 	at java.base/java.lang.Thread.run(Unknown Source)
+[        ] Caused by: org.gradle.internal.UncheckedException: com.android.ide.common.process.ProcessException: ninja: Entering directory `/Users/gilmichael/Desktop/Projects/agus_maps_flutter/android/.cxx/Debug/2s5r1c45/arm64-v8a'
+[        ] [1/215] Building C object build/comaps/3party/expat/expat/CMakeFiles/expat.dir/Unity/unity_0_c.c.o
+[        ] [2/215] Linking C static library build/comaps/3party/expat/expat/libexpat.a
+[        ] [3/215] Building C object build/comaps/3party/jansson/jansson/CMakeFiles/jansson.dir/Unity/unity_0_c.c.o
+[        ] [4/215] Linking C static library build/comaps/3party/jansson/jansson/lib/libjansson.a
+[        ] [5/215] Building CXX object build/comaps/3party/pugixml/CMakeFiles/pugixml.dir/Unity/unity_0_cxx.cxx.o
+[        ] [6/215] Linking CXX static library build/comaps/3party/pugixml/libpugixml.a
+[        ] [7/215] Building CXX object build/comaps/libs/traffic/CMakeFiles/traffic.dir/Unity/unity_0_cxx.cxx.o
+[        ] [8/215] Building CXX object build/comaps/libs/routing_common/CMakeFiles/routing_common.dir/Unity/unity_0_cxx.cxx.o
+[        ] [9/215] Building CXX object build/comaps/3party/protobuf/CMakeFiles/protobuf.dir/Unity/unity_0_cxx.cxx.o
+[        ] [10/215] Linking CXX static library build/comaps/3party/protobuf/libprotobuf.a
+[        ] [11/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/appendable.cpp.o
+[        ] [12/215] Building C object build/comaps/3party/freetype/freetype/CMakeFiles/freetype.dir/Unity/unity_1_c.c.o
+[        ] [13/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/bmpset.cpp.o
+[        ] [14/215] Building C object build/comaps/3party/freetype/freetype/CMakeFiles/freetype.dir/Unity/unity_0_c.c.o
+[        ] [15/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/bytesinkutil.cpp.o
+[        ] [16/215] Linking C static library build/comaps/3party/freetype/freetype/libfreetyped.a
+[        ] [17/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/bytestream.cpp.o
+[        ] [18/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/bytestrie.cpp.o
+[        ] [19/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/charstr.cpp.o
+[        ] [20/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/characterproperties.cpp.o
+[        ] [21/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/cmemory.cpp.o
+[        ] [22/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/cstring.cpp.o
+[        ] [23/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/edits.cpp.o
+[        ] [24/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/emojiprops.cpp.o
+[        ] [25/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/loadednormalizer2impl.cpp.o
+[        ] [26/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/localebuilder.cpp.o
+[        ] [27/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/loclikely.cpp.o
+[        ] [28/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/locid.cpp.o
+[        ] [29/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/loclikelysubtags.cpp.o
+[        ] [30/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/locmap.cpp.o
+[        ] [31/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/locutil.cpp.o
+[        ] [32/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/lsr.cpp.o
+[        ] [33/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/parsepos.cpp.o
+[        ] [34/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/normalizer2.cpp.o
+[        ] [35/215] Building CXX object build/comaps/libs/transit/CMakeFiles/transit.dir/Unity/unity_0_cxx.cxx.o
+[        ] [36/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/normalizer2impl.cpp.o
+[        ] [37/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/patternprops.cpp.o
+[        ] [38/215] Building CXX object build/comaps/libs/storage/CMakeFiles/storage.dir/Unity/unity_0_cxx.cxx.o
+[        ] [39/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/resbund_cnv.cpp.o
+[        ] [40/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/propname.cpp.o
+[        ] [41/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/resbund.cpp.o
+[        ] [42/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/putil.cpp.o
+[        ] [43/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/resource.cpp.o
+[        ] [44/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uarrsort.cpp.o
+[        ] [45/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ruleiter.cpp.o
+[        ] [46/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ubidi.cpp.o
+[        ] [47/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/stringpiece.cpp.o
+[        ] [48/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ubidiln.cpp.o
+[        ] [49/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ubidi_props.cpp.o
+[        ] [50/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ubidiwrt.cpp.o
+[        ] [51/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uchar.cpp.o
+[        ] [52/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ucase.cpp.o
+[        ] [53/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ucharstrie.cpp.o
+[        ] [54/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ucharstrieiterator.cpp.o
+[        ] [55/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ucmndata.cpp.o
+[        ] [56/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ucln_cmn.cpp.o
+[        ] [57/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ucptrie.cpp.o
+[        ] [58/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/udatamem.cpp.o
+[        ] [59/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/udataswp.cpp.o
+[        ] [60/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uenum.cpp.o
+[        ] [61/215] Building CXX object build/comaps/libs/routing/CMakeFiles/routing.dir/Unity/unity_3_cxx.cxx.o
+[        ] [62/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uhash.cpp.o
+[        ] [63/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/udata.cpp.o
+[        ] [64/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uinvchar.cpp.o
+[        ] [65/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uhash_us.cpp.o
+[        ] [66/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/umath.cpp.o
+[        ] [67/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/umapfile.cpp.o
+[        ] [68/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uloc.cpp.o
+[        ] [69/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/unifilt.cpp.o
+[        ] [70/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/unifunct.cpp.o
+[        ] [71/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uloc_tag.cpp.o
+[        ] [72/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/umutablecptrie.cpp.o
+[        ] [73/215] Building CXX object build/comaps/libs/search/CMakeFiles/search.dir/Unity/unity_1_cxx.cxx.o
+[        ] [74/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uloc_keytype.cpp.o
+[        ] [75/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/umutex.cpp.o
+[        ] [76/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/unames.cpp.o
+[        ] [77/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uniset_closure.cpp.o
+[        ] [78/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uniset.cpp.o
+[        ] [79/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/unisetspan.cpp.o
+[        ] [80/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uniset_props.cpp.o
+[        ] [81/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uobject.cpp.o
+[        ] [82/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/unistr_case.cpp.o
+[        ] [83/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/unistr_case_locale.cpp.o
+[        ] [84/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/unistr.cpp.o
+[        ] [85/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ushape.cpp.o
+[        ] [86/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uprops.cpp.o
+[        ] [87/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uscript.cpp.o
+[        ] [88/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uscript_props.cpp.o
+[        ] [89/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uresdata.cpp.o
+[        ] [90/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uset.cpp.o
+[        ] [91/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uresbund.cpp.o
+[        ] [92/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/utf_impl.cpp.o
+[        ] [93/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ustring.cpp.o
+[        ] [94/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ustrtrns.cpp.o
+[        ] [95/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ustrenum.cpp.o
+[        ] [96/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ustrcase_locale.cpp.o
+[        ] [97/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ustrcase.cpp.o
+[        ] [98/215] Building CXX object build/comaps/libs/routing/CMakeFiles/routing.dir/Unity/unity_2_cxx.cxx.o
+[        ] [99/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/util.cpp.o
+[        ] [100/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/util_props.cpp.o
+[        ] [101/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/utrace.cpp.o
+[        ] [102/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/wintz.cpp.o
+[        ] [103/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/utrie2.cpp.o
+[        ] [104/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/utrie_swap.cpp.o
+[        ] [105/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uvector.cpp.o
+[        ] [106/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uvectr32.cpp.o
+[        ] [107/215] Linking CXX static library build/comaps/3party/icu/libicuuc.a
+[        ] [108/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/cpdtrans.cpp.o
+[        ] [109/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/casetrn.cpp.o
+[        ] [110/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/esctrn.cpp.o
+[        ] [111/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/funcrepl.cpp.o
+[        ] [112/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/name2uni.cpp.o
+[        ] [113/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/anytrans.cpp.o
+[        ] [114/215] Building CXX object build/comaps/libs/routing/CMakeFiles/routing.dir/Unity/unity_0_cxx.cxx.o
+[        ] [115/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/nortrans.cpp.o
+[        ] [116/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/nultrans.cpp.o
+[        ] [117/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/quant.cpp.o
+[        ] [118/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/rbt.cpp.o
+[        ] [119/215] Building CXX object build/comaps/libs/search/CMakeFiles/search.dir/Unity/unity_2_cxx.cxx.o
+[        ] [120/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/rbt_data.cpp.o
+[        ] [121/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/rbt_pars.cpp.o
+[        ] [122/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/remtrans.cpp.o
+[        ] [123/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/rbt_set.cpp.o
+[        ] [124/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/rbt_rule.cpp.o
+[        ] [125/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/strmatch.cpp.o
+[        ] [126/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/strrepl.cpp.o
+[        ] [127/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/tolowtrn.cpp.o
+[        ] [128/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/toupptrn.cpp.o
+[        ] [129/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/titletrn.cpp.o
+[        ] [130/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/uni2name.cpp.o
+[        ] [131/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/ucln_in.cpp.o
+[        ] [132/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/unesctrn.cpp.o
+[        ] [133/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/stubdata/stubdata.cpp.o
+[        ] [134/215] Building CXX object build/comaps/3party/bsdiff-courgette/CMakeFiles/bsdiff.dir/Unity/unity_0_cxx.cxx.o
+[        ] [135/215] Building CXX object build/comaps/3party/agg/CMakeFiles/agg.dir/Unity/unity_0_cxx.cxx.o
+[        ] [136/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/transreg.cpp.o
+[        ] [137/215] Linking CXX static library build/comaps/3party/bsdiff-courgette/libbsdiff.a
+[        ] [138/215] Building C object build/comaps/3party/minizip/CMakeFiles/minizip.dir/Unity/unity_0_c.c.o
+[        ] [139/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/tridpars.cpp.o
+[        ] [140/215] Linking CXX static library build/comaps/3party/agg/libagg.a
+[        ] [141/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/translit.cpp.o
+[        ] [142/215] Building CXX object build/comaps/3party/vulkan_wrapper/CMakeFiles/vulkan_wrapper.dir/Unity/unity_0_cxx.cxx.o
+[        ] [143/215] Building CXX object build/comaps/libs/search/CMakeFiles/search.dir/Unity/unity_0_cxx.cxx.o
+[        ] [144/215] Linking CXX static library build/comaps/3party/icu/libicui18n.a
+[        ] [145/215] Building CXX object build/comaps/3party/minizip/CMakeFiles/minizip.dir/Unity/unity_0_cxx.cxx.o
+[        ] [146/215] Linking CXX static library build/comaps/3party/vulkan_wrapper/libvulkan_wrapper.a
+[        ] [147/215] Building CXX object build/comaps/libs/base/CMakeFiles/base.dir/fast_math.cpp.o
+[        ] [148/215] Building CXX object build/comaps/3party/stb_image/CMakeFiles/stb_image.dir/Unity/unity_0_cxx.cxx.o
+[        ] [149/215] Linking CXX static library build/comaps/3party/minizip/libminizip.a
+[        ] [150/215] Linking CXX static library build/comaps/3party/stb_image/libstb_image.a
+[        ] [151/215] Building CXX object build/comaps/3party/open-location-code/CMakeFiles/openlocationcode.dir/Unity/unity_0_cxx.cxx.o
+[        ] [152/215] Linking CXX static library build/comaps/3party/open-location-code/libopenlocationcode.a
+[        ] [153/215] Building CXX object build/comaps/libs/base/CMakeFiles/base.dir/Unity/unity_1_cxx.cxx.o
+[        ] [154/215] Building CXX object build/comaps/libs/coding/CMakeFiles/coding.dir/Unity/unity_1_cxx.cxx.o
+[        ] [155/215] Building CXX object build/comaps/3party/succinct/CMakeFiles/succinct.dir/Unity/unity_0_cxx.cxx.o
+[        ] [156/215] Linking CXX static library build/comaps/3party/succinct/libsuccinct.a
+[        ] [157/215] Building CXX object build/comaps/libs/routing/CMakeFiles/routing.dir/Unity/unity_1_cxx.cxx.o
+[        ] [158/215] Building CXX object build/comaps/libs/drape/fonts_tool/CMakeFiles/fonts_tool.dir/Unity/unity_0_cxx.cxx.o
+[        ] [159/215] Building CXX object build/comaps/libs/descriptions/CMakeFiles/descriptions.dir/Unity/unity_0_cxx.cxx.o
+[        ] [160/215] Building CXX object build/comaps/libs/drape/CMakeFiles/drape.dir/Unity/unity_2_cxx.cxx.o
+[        ] [161/215] Building CXX object build/comaps/libs/mwm_diff/CMakeFiles/mwm_diff.dir/Unity/unity_0_cxx.cxx.o
+[        ] [162/215] Building CXX object build/comaps/libs/base/CMakeFiles/base.dir/Unity/unity_0_cxx.cxx.o
+[        ] [163/215] Building CXX object build/comaps/libs/mwm_diff/mwm_diff_tool/CMakeFiles/mwm_diff_tool.dir/Unity/unity_0_cxx.cxx.o
+[        ] [164/215] Linking CXX static library build/comaps/libs/base/libbase.a
+[        ] [165/215] Building CXX object build/comaps/libs/coding/CMakeFiles/coding.dir/Unity/unity_0_cxx.cxx.o
+[        ] [166/215] Building CXX object build/comaps/libs/ge0/CMakeFiles/ge0.dir/Unity/unity_0_cxx.cxx.o
+[        ] [167/215] Building CXX object build/comaps/libs/indexer/CMakeFiles/indexer.dir/drules_struct.pb.cc.o
+[        ] [168/215] Building CXX object build/comaps/libs/cppjansson/CMakeFiles/cppjansson.dir/Unity/unity_0_cxx.cxx.o
+[        ] [169/215] Linking CXX static library build/comaps/libs/cppjansson/libcppjansson.a
+[        ] [170/215] Linking CXX static library build/comaps/libs/coding/libcoding.a
+[        ] [171/215] Linking CXX static library build/comaps/libs/mwm_diff/libmwm_diff.a
+[        ] [172/215] Linking CXX executable build/comaps/mwm_diff_tool
+[        ] FAILED: build/comaps/mwm_diff_tool 
+[        ] : && /Users/gilmichael/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android24 --sysroot=/Users/gilmichael/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info -fuse-ld=lld    -Xlinker --build-id=none build/comaps/libs/mwm_diff/mwm_diff_tool/CMakeFiles/mwm_diff_tool.dir/Unity/unity_0_cxx.cxx.o -o build/comaps/mwm_diff_tool  build/comaps/libs/mwm_diff/libmwm_diff.a  build/comaps/3party/bsdiff-courgette/libbsdiff.a  build/comaps/libs/coding/libcoding.a  build/comaps/3party/expat/expat/libexpat.a  -lm  build/comaps/libs/cppjansson/libcppjansson.a  build/comaps/libs/base/libbase.a  -pthread  build/comaps/3party/jansson/jansson/lib/libjansson.a  build/comaps/3party/succinct/libsuccinct.a  build/comaps/3party/icu/libicui18n.a  build/comaps/3party/icu/libicuuc.a  build/comaps/3party/minizip/libminizip.a  /Users/gilmichael/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/24/libz.so  -latomic -lm && :
+[        ] ld.lld: error: undefined symbol: AndroidThreadAttachToJVM()
+[        ] >>> referenced by thread.cpp:23 (/Users/gilmichael/Desktop/Projects/agus_maps_flutter/thirdparty/comaps/libs/base/thread.cpp:23)
+[        ] >>>               unity_0_cxx.cxx.o:(threads::(anonymous namespace)::RunRoutine(std::__ndk1::shared_ptr<threads::IRoutine>)) in archive build/comaps/libs/base/libbase.a
+[        ] >>> referenced by thread.cpp:105 (/Users/gilmichael/Desktop/Projects/agus_maps_flutter/thirdparty/comaps/libs/base/thread.cpp:105)
+[        ] >>>               unity_0_cxx.cxx.o:(threads::SimpleThread::ThreadFunc(std::__ndk1::function<void ()>&&)) in archive build/comaps/libs/base/libbase.a
+[        ] ld.lld: error: undefined symbol: AndroidThreadDetachFromJVM()
+[        ] >>> referenced by thread.cpp:29 (/Users/gilmichael/Desktop/Projects/agus_maps_flutter/thirdparty/comaps/libs/base/thread.cpp:29)
+[        ] >>>               unity_0_cxx.cxx.o:(threads::(anonymous namespace)::RunRoutine(std::__ndk1::shared_ptr<threads::IRoutine>)) in archive build/comaps/libs/base/libbase.a
+[        ] >>> referenced by thread.cpp:116 (/Users/gilmichael/Desktop/Projects/agus_maps_flutter/thirdparty/comaps/libs/base/thread.cpp:116)
+[        ] >>>               unity_0_cxx.cxx.o:(threads::SimpleThread::ThreadFunc(std::__ndk1::function<void ()>&&)) in archive build/comaps/libs/base/libbase.a
+[        ] clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+[        ] [173/215] Building CXX object build/comaps/libs/geometry/CMakeFiles/geometry.dir/Unity/unity_0_cxx.cxx.o
+[        ] [174/215] Building CXX object build/comaps/libs/drape/CMakeFiles/drape.dir/Unity/unity_0_cxx.cxx.o
+[        ] [175/215] Building CXX object build/comaps/libs/platform/CMakeFiles/platform.dir/Unity/unity_1_cxx.cxx.o
+[        ] [176/215] Building CXX object build/comaps/libs/drape/CMakeFiles/drape.dir/Unity/unity_1_cxx.cxx.o
+[        ] [177/215] Building CXX object build/comaps/libs/indexer/CMakeFiles/indexer.dir/Unity/unity_2_cxx.cxx.o
+[        ] [178/215] Building CXX object build/comaps/libs/kml/CMakeFiles/kml.dir/Unity/unity_0_cxx.cxx.o
+[        ] [179/215] Building CXX object build/comaps/3party/harfbuzz/CMakeFiles/harfbuzz.dir/Unity/unity_0_cxx.cxx.o
+[        ] [180/215] Building CXX object build/comaps/libs/indexer/CMakeFiles/indexer.dir/Unity/unity_1_cxx.cxx.o
+[        ] In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/android/.cxx/Debug/2s5r1c45/arm64-v8a/build/comaps/libs/indexer/CMakeFiles/indexer.dir/Unity/unity_1_cxx.cxx:47:
+[        ] /Users/gilmichael/Desktop/Projects/agus_maps_flutter/thirdparty/comaps/libs/indexer/road_shields_parser.cpp:407:24: warning: private field 'm_defaultType' is not used [-Wunused-private-field]
+[        ]   407 |   RoadShieldType const m_defaultType;
+[        ]       |                        ^
+[        ] 1 warning generated.
+[        ] [181/215] Building CXX object build/comaps/libs/indexer/CMakeFiles/indexer.dir/Unity/unity_0_cxx.cxx.o
+[        ] [182/215] Building CXX object build/comaps/3party/opening_hours/CMakeFiles/opening_hours.dir/Unity/unity_0_cxx.cxx.o
+[        ] [183/215] Building CXX object build/comaps/libs/editor/CMakeFiles/editor.dir/Unity/unity_0_cxx.cxx.o
+[        ] ninja: build stopped: subcommand failed.
+[        ] C++ build system [build] failed while executing:
+[        ]     /Users/gilmichael/Library/Android/sdk/cmake/3.22.1/bin/ninja \
+[        ]       -C \
+[        ]       /Users/gilmichael/Desktop/Projects/agus_maps_flutter/android/.cxx/Debug/2s5r1c45/arm64-v8a \
+[        ]       agus_maps_flutter \
+[        ]       fonts_tool \
+[        ]       mwm_diff_tool
+[        ]   from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/android
+[        ] 	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:69)
+[        ] 	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:42)
+[        ] 	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:128)
+[        ] 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:58)
+[        ] 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:51)
+[        ] 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:29)
+[        ] 	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:244)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:30)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:27)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:48)
+[        ] 	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:229)
+[        ] 	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:212)
+[        ] 	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:195)
+[        ] 	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:162)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:105)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:44)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:59)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:56)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:56)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:44)
+[        ] 	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:42)
+[        ] 	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:75)
+[        ] 	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+[        ] 	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:50)
+[        ] 	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:28)
+[        ] 	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:67)
+[        ] 	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:37)
+[        ] 	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:61)
+[        ] 	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:26)
+[        ] 	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:69)
+[        ] 	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:46)
+[        ] 	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:40)
+[        ] 	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:29)
+[        ] 	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:189)
+[        ] 	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCacheStep.java:75)
+[        ] 	at org.gradle.internal.Either$Right.fold(Either.java:175)
+[        ] 	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:62)
+[        ] 	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:73)
+[        ] 	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:48)
+[        ] 	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:46)
+[        ] 	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:35)
+[        ] 	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:75)
+[        ] 	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:53)
+[        ] 	at java.base/java.util.Optional.orElseGet(Unknown Source)
+[        ] 	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:53)
+[        ] 	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:35)
+[        ] 	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+[        ] 	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+[        ] 	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:49)
+[        ] 	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:27)
+[        ] 	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:71)
+[        ] 	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:39)
+[        ] 	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:65)
+[        ] 	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:36)
+[        ] 	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:107)
+[        ] 	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:56)
+[        ] 	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:64)
+[        ] 	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:43)
+[        ] 	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.executeWithNonEmptySources(AbstractSkipEmptyWorkStep.java:125)
+[        ] 	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:56)
+[        ] 	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:36)
+[        ] 	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+[        ] 	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:36)
+[        ] 	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:23)
+[        ] 	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:75)
+[        ] 	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:41)
+[        ] 	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$execute$0(AssignMutableWorkspaceStep.java:35)
+[        ] 	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:289)
+[        ] 	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:31)
+[        ] 	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:22)
+[        ] 	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:40)
+[        ] 	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:23)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBuildOperationFiringStep.java:67)
+[        ] 	at java.base/java.util.Optional.orElseGet(Unknown Source)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:67)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:39)
+[        ] 	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:46)
+[        ] 	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:34)
+[        ] 	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:48)
+[        ] 	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:35)
+[        ] 	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:64)
+[        ] 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:127)
+[        ] 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:116)
+[        ] 	at org.gradle.api.internal.tasks.execution.ProblemsTaskPathTrackingTaskExecuter.execute(ProblemsTaskPathTrackingTaskExecuter.java:41)
+[        ] 	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+[        ] 	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+[        ] 	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+[        ] 	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+[        ] 	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+[        ] 	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+[        ] 	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:85)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+[        ] 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+[        ] 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+[        ] 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+[        ] 	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
+[        ] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[        ] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[        ] 	at java.base/java.lang.Thread.run(Unknown Source)
+[        ] Caused by: com.android.ide.common.process.ProcessException: ninja: Entering directory `/Users/gilmichael/Desktop/Projects/agus_maps_flutter/android/.cxx/Debug/2s5r1c45/arm64-v8a'
+[        ] [1/215] Building C object build/comaps/3party/expat/expat/CMakeFiles/expat.dir/Unity/unity_0_c.c.o
+[        ] [2/215] Linking C static library build/comaps/3party/expat/expat/libexpat.a
+[        ] [3/215] Building C object build/comaps/3party/jansson/jansson/CMakeFiles/jansson.dir/Unity/unity_0_c.c.o
+[        ] [4/215] Linking C static library build/comaps/3party/jansson/jansson/lib/libjansson.a
+[        ] [5/215] Building CXX object build/comaps/3party/pugixml/CMakeFiles/pugixml.dir/Unity/unity_0_cxx.cxx.o
+[        ] [6/215] Linking CXX static library build/comaps/3party/pugixml/libpugixml.a
+[        ] [7/215] Building CXX object build/comaps/libs/traffic/CMakeFiles/traffic.dir/Unity/unity_0_cxx.cxx.o
+[        ] [8/215] Building CXX object build/comaps/libs/routing_common/CMakeFiles/routing_common.dir/Unity/unity_0_cxx.cxx.o
+[        ] [9/215] Building CXX object build/comaps/3party/protobuf/CMakeFiles/protobuf.dir/Unity/unity_0_cxx.cxx.o
+[        ] [10/215] Linking CXX static library build/comaps/3party/protobuf/libprotobuf.a
+[        ] [11/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/appendable.cpp.o
+[        ] [12/215] Building C object build/comaps/3party/freetype/freetype/CMakeFiles/freetype.dir/Unity/unity_1_c.c.o
+[        ] [13/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/bmpset.cpp.o
+[        ] [14/215] Building C object build/comaps/3party/freetype/freetype/CMakeFiles/freetype.dir/Unity/unity_0_c.c.o
+[        ] [15/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/bytesinkutil.cpp.o
+[        ] [16/215] Linking C static library build/comaps/3party/freetype/freetype/libfreetyped.a
+[        ] [17/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/bytestream.cpp.o
+[        ] [18/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/bytestrie.cpp.o
+[        ] [19/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/charstr.cpp.o
+[        ] [20/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/characterproperties.cpp.o
+[        ] [21/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/cmemory.cpp.o
+[        ] [22/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/cstring.cpp.o
+[        ] [23/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/edits.cpp.o
+[        ] [24/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/emojiprops.cpp.o
+[        ] [25/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/loadednormalizer2impl.cpp.o
+[        ] [26/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/localebuilder.cpp.o
+[        ] [27/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/loclikely.cpp.o
+[        ] [28/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/locid.cpp.o
+[        ] [29/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/loclikelysubtags.cpp.o
+[        ] [30/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/locmap.cpp.o
+[        ] [31/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/locutil.cpp.o
+[        ] [32/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/lsr.cpp.o
+[        ] [33/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/parsepos.cpp.o
+[        ] [34/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/normalizer2.cpp.o
+[        ] [35/215] Building CXX object build/comaps/libs/transit/CMakeFiles/transit.dir/Unity/unity_0_cxx.cxx.o
+[        ] [36/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/normalizer2impl.cpp.o
+[        ] [37/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/patternprops.cpp.o
+[        ] [38/215] Building CXX object build/comaps/libs/storage/CMakeFiles/storage.dir/Unity/unity_0_cxx.cxx.o
+[        ] [39/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/resbund_cnv.cpp.o
+[        ] [40/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/propname.cpp.o
+[        ] [41/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/resbund.cpp.o
+[        ] [42/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/putil.cpp.o
+[        ] [43/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/resource.cpp.o
+[        ] [44/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uarrsort.cpp.o
+[        ] [45/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ruleiter.cpp.o
+[        ] [46/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ubidi.cpp.o
+[        ] [47/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/stringpiece.cpp.o
+[        ] [48/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ubidiln.cpp.o
+[        ] [49/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ubidi_props.cpp.o
+[        ] [50/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ubidiwrt.cpp.o
+[        ] [51/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uchar.cpp.o
+[        ] [52/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ucase.cpp.o
+[        ] [53/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ucharstrie.cpp.o
+[        ] [54/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ucharstrieiterator.cpp.o
+[        ] [55/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ucmndata.cpp.o
+[        ] [56/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ucln_cmn.cpp.o
+[        ] [57/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ucptrie.cpp.o
+[        ] [58/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/udatamem.cpp.o
+[        ] [59/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/udataswp.cpp.o
+[        ] [60/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uenum.cpp.o
+[        ] [61/215] Building CXX object build/comaps/libs/routing/CMakeFiles/routing.dir/Unity/unity_3_cxx.cxx.o
+[        ] [62/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uhash.cpp.o
+[        ] [63/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/udata.cpp.o
+[        ] [64/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uinvchar.cpp.o
+[        ] [65/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uhash_us.cpp.o
+[        ] [66/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/umath.cpp.o
+[        ] [67/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/umapfile.cpp.o
+[        ] [68/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uloc.cpp.o
+[        ] [69/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/unifilt.cpp.o
+[        ] [70/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/unifunct.cpp.o
+[        ] [71/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uloc_tag.cpp.o
+[        ] [72/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/umutablecptrie.cpp.o
+[        ] [73/215] Building CXX object build/comaps/libs/search/CMakeFiles/search.dir/Unity/unity_1_cxx.cxx.o
+[        ] [74/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uloc_keytype.cpp.o
+[        ] [75/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/umutex.cpp.o
+[        ] [76/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/unames.cpp.o
+[        ] [77/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uniset_closure.cpp.o
+[        ] [78/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uniset.cpp.o
+[        ] [79/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/unisetspan.cpp.o
+[        ] [80/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uniset_props.cpp.o
+[        ] [81/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uobject.cpp.o
+[        ] [82/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/unistr_case.cpp.o
+[        ] [83/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/unistr_case_locale.cpp.o
+[        ] [84/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/unistr.cpp.o
+[        ] [85/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ushape.cpp.o
+[        ] [86/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uprops.cpp.o
+[        ] [87/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uscript.cpp.o
+[        ] [88/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uscript_props.cpp.o
+[        ] [89/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uresdata.cpp.o
+[        ] [90/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uset.cpp.o
+[        ] [91/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uresbund.cpp.o
+[        ] [92/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/utf_impl.cpp.o
+[        ] [93/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ustring.cpp.o
+[        ] [94/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ustrtrns.cpp.o
+[        ] [95/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ustrenum.cpp.o
+[        ] [96/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ustrcase_locale.cpp.o
+[        ] [97/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/ustrcase.cpp.o
+[        ] [98/215] Building CXX object build/comaps/libs/routing/CMakeFiles/routing.dir/Unity/unity_2_cxx.cxx.o
+[        ] [99/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/util.cpp.o
+[        ] [100/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/util_props.cpp.o
+[        ] [101/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/utrace.cpp.o
+[        ] [102/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/wintz.cpp.o
+[        ] [103/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/utrie2.cpp.o
+[        ] [104/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/utrie_swap.cpp.o
+[        ] [105/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uvector.cpp.o
+[        ] [106/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icuuc.dir/icu/icu4c/source/common/uvectr32.cpp.o
+[        ] [107/215] Linking CXX static library build/comaps/3party/icu/libicuuc.a
+[        ] [108/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/cpdtrans.cpp.o
+[        ] [109/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/casetrn.cpp.o
+[        ] [110/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/esctrn.cpp.o
+[        ] [111/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/funcrepl.cpp.o
+[        ] [112/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/name2uni.cpp.o
+[        ] [113/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/anytrans.cpp.o
+[        ] [114/215] Building CXX object build/comaps/libs/routing/CMakeFiles/routing.dir/Unity/unity_0_cxx.cxx.o
+[        ] [115/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/nortrans.cpp.o
+[        ] [116/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/nultrans.cpp.o
+[        ] [117/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/quant.cpp.o
+[        ] [118/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/rbt.cpp.o
+[        ] [119/215] Building CXX object build/comaps/libs/search/CMakeFiles/search.dir/Unity/unity_2_cxx.cxx.o
+[        ] [120/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/rbt_data.cpp.o
+[        ] [121/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/rbt_pars.cpp.o
+[        ] [122/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/remtrans.cpp.o
+[        ] [123/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/rbt_set.cpp.o
+[        ] [124/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/rbt_rule.cpp.o
+[        ] [125/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/strmatch.cpp.o
+[        ] [126/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/strrepl.cpp.o
+[        ] [127/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/tolowtrn.cpp.o
+[        ] [128/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/toupptrn.cpp.o
+[        ] [129/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/titletrn.cpp.o
+[        ] [130/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/uni2name.cpp.o
+[        ] [131/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/ucln_in.cpp.o
+[        ] [132/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/unesctrn.cpp.o
+[        ] [133/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/stubdata/stubdata.cpp.o
+[        ] [134/215] Building CXX object build/comaps/3party/bsdiff-courgette/CMakeFiles/bsdiff.dir/Unity/unity_0_cxx.cxx.o
+[        ] [135/215] Building CXX object build/comaps/3party/agg/CMakeFiles/agg.dir/Unity/unity_0_cxx.cxx.o
+[        ] [136/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/transreg.cpp.o
+[        ] [137/215] Linking CXX static library build/comaps/3party/bsdiff-courgette/libbsdiff.a
+[        ] [138/215] Building C object build/comaps/3party/minizip/CMakeFiles/minizip.dir/Unity/unity_0_c.c.o
+[        ] [139/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/tridpars.cpp.o
+[        ] [140/215] Linking CXX static library build/comaps/3party/agg/libagg.a
+[        ] [141/215] Building CXX object build/comaps/3party/icu/CMakeFiles/icui18n.dir/icu/icu4c/source/i18n/translit.cpp.o
+[        ] [142/215] Building CXX object build/comaps/3party/vulkan_wrapper/CMakeFiles/vulkan_wrapper.dir/Unity/unity_0_cxx.cxx.o
+[        ] [143/215] Building CXX object build/comaps/libs/search/CMakeFiles/search.dir/Unity/unity_0_cxx.cxx.o
+[        ] [144/215] Linking CXX static library build/comaps/3party/icu/libicui18n.a
+[        ] [145/215] Building CXX object build/comaps/3party/minizip/CMakeFiles/minizip.dir/Unity/unity_0_cxx.cxx.o
+[        ] [146/215] Linking CXX static library build/comaps/3party/vulkan_wrapper/libvulkan_wrapper.a
+[        ] [147/215] Building CXX object build/comaps/libs/base/CMakeFiles/base.dir/fast_math.cpp.o
+[        ] [148/215] Building CXX object build/comaps/3party/stb_image/CMakeFiles/stb_image.dir/Unity/unity_0_cxx.cxx.o
+[        ] [149/215] Linking CXX static library build/comaps/3party/minizip/libminizip.a
+[        ] [150/215] Linking CXX static library build/comaps/3party/stb_image/libstb_image.a
+[        ] [151/215] Building CXX object build/comaps/3party/open-location-code/CMakeFiles/openlocationcode.dir/Unity/unity_0_cxx.cxx.o
+[        ] [152/215] Linking CXX static library build/comaps/3party/open-location-code/libopenlocationcode.a
+[        ] [153/215] Building CXX object build/comaps/libs/base/CMakeFiles/base.dir/Unity/unity_1_cxx.cxx.o
+[        ] [154/215] Building CXX object build/comaps/libs/coding/CMakeFiles/coding.dir/Unity/unity_1_cxx.cxx.o
+[        ] [155/215] Building CXX object build/comaps/3party/succinct/CMakeFiles/succinct.dir/Unity/unity_0_cxx.cxx.o
+[        ] [156/215] Linking CXX static library build/comaps/3party/succinct/libsuccinct.a
+[        ] [157/215] Building CXX object build/comaps/libs/routing/CMakeFiles/routing.dir/Unity/unity_1_cxx.cxx.o
+[        ] [158/215] Building CXX object build/comaps/libs/drape/fonts_tool/CMakeFiles/fonts_tool.dir/Unity/unity_0_cxx.cxx.o
+[        ] [159/215] Building CXX object build/comaps/libs/descriptions/CMakeFiles/descriptions.dir/Unity/unity_0_cxx.cxx.o
+[        ] [160/215] Building CXX object build/comaps/libs/drape/CMakeFiles/drape.dir/Unity/unity_2_cxx.cxx.o
+[        ] [161/215] Building CXX object build/comaps/libs/mwm_diff/CMakeFiles/mwm_diff.dir/Unity/unity_0_cxx.cxx.o
+[        ] [162/215] Building CXX object build/comaps/libs/base/CMakeFiles/base.dir/Unity/unity_0_cxx.cxx.o
+[        ] [163/215] Building CXX object build/comaps/libs/mwm_diff/mwm_diff_tool/CMakeFiles/mwm_diff_tool.dir/Unity/unity_0_cxx.cxx.o
+[        ] [164/215] Linking CXX static library build/comaps/libs/base/libbase.a
+[        ] [165/215] Building CXX object build/comaps/libs/coding/CMakeFiles/coding.dir/Unity/unity_0_cxx.cxx.o
+[        ] [166/215] Building CXX object build/comaps/libs/ge0/CMakeFiles/ge0.dir/Unity/unity_0_cxx.cxx.o
+[        ] [167/215] Building CXX object build/comaps/libs/indexer/CMakeFiles/indexer.dir/drules_struct.pb.cc.o
+[        ] [168/215] Building CXX object build/comaps/libs/cppjansson/CMakeFiles/cppjansson.dir/Unity/unity_0_cxx.cxx.o
+[        ] [169/215] Linking CXX static library build/comaps/libs/cppjansson/libcppjansson.a
+[        ] [170/215] Linking CXX static library build/comaps/libs/coding/libcoding.a
+[        ] [171/215] Linking CXX static library build/comaps/libs/mwm_diff/libmwm_diff.a
+[        ] [172/215] Linking CXX executable build/comaps/mwm_diff_tool
+[        ] FAILED: build/comaps/mwm_diff_tool 
+[        ] : && /Users/gilmichael/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android24 --sysroot=/Users/gilmichael/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info -fuse-ld=lld    -Xlinker --build-id=none build/comaps/libs/mwm_diff/mwm_diff_tool/CMakeFiles/mwm_diff_tool.dir/Unity/unity_0_cxx.cxx.o -o build/comaps/mwm_diff_tool  build/comaps/libs/mwm_diff/libmwm_diff.a  build/comaps/3party/bsdiff-courgette/libbsdiff.a  build/comaps/libs/coding/libcoding.a  build/comaps/3party/expat/expat/libexpat.a  -lm  build/comaps/libs/cppjansson/libcppjansson.a  build/comaps/libs/base/libbase.a  -pthread  build/comaps/3party/jansson/jansson/lib/libjansson.a  build/comaps/3party/succinct/libsuccinct.a  build/comaps/3party/icu/libicui18n.a  build/comaps/3party/icu/libicuuc.a  build/comaps/3party/minizip/libminizip.a  /Users/gilmichael/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/24/libz.so  -latomic -lm && :
+[        ] ld.lld: error: undefined symbol: AndroidThreadAttachToJVM()
+[        ] >>> referenced by thread.cpp:23 (/Users/gilmichael/Desktop/Projects/agus_maps_flutter/thirdparty/comaps/libs/base/thread.cpp:23)
+[        ] >>>               unity_0_cxx.cxx.o:(threads::(anonymous namespace)::RunRoutine(std::__ndk1::shared_ptr<threads::IRoutine>)) in archive build/comaps/libs/base/libbase.a
+[        ] >>> referenced by thread.cpp:105 (/Users/gilmichael/Desktop/Projects/agus_maps_flutter/thirdparty/comaps/libs/base/thread.cpp:105)
+[        ] >>>               unity_0_cxx.cxx.o:(threads::SimpleThread::ThreadFunc(std::__ndk1::function<void ()>&&)) in archive build/comaps/libs/base/libbase.a
+[        ] ld.lld: error: undefined symbol: AndroidThreadDetachFromJVM()
+[        ] >>> referenced by thread.cpp:29 (/Users/gilmichael/Desktop/Projects/agus_maps_flutter/thirdparty/comaps/libs/base/thread.cpp:29)
+[        ] >>>               unity_0_cxx.cxx.o:(threads::(anonymous namespace)::RunRoutine(std::__ndk1::shared_ptr<threads::IRoutine>)) in archive build/comaps/libs/base/libbase.a
+[        ] >>> referenced by thread.cpp:116 (/Users/gilmichael/Desktop/Projects/agus_maps_flutter/thirdparty/comaps/libs/base/thread.cpp:116)
+[        ] >>>               unity_0_cxx.cxx.o:(threads::SimpleThread::ThreadFunc(std::__ndk1::function<void ()>&&)) in archive build/comaps/libs/base/libbase.a
+[        ] clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+[        ] [173/215] Building CXX object build/comaps/libs/geometry/CMakeFiles/geometry.dir/Unity/unity_0_cxx.cxx.o
+[        ] [174/215] Building CXX object build/comaps/libs/drape/CMakeFiles/drape.dir/Unity/unity_0_cxx.cxx.o
+[        ] [175/215] Building CXX object build/comaps/libs/platform/CMakeFiles/platform.dir/Unity/unity_1_cxx.cxx.o
+[        ] [176/215] Building CXX object build/comaps/libs/drape/CMakeFiles/drape.dir/Unity/unity_1_cxx.cxx.o
+[        ] [177/215] Building CXX object build/comaps/libs/indexer/CMakeFiles/indexer.dir/Unity/unity_2_cxx.cxx.o
+[        ] [178/215] Building CXX object build/comaps/libs/kml/CMakeFiles/kml.dir/Unity/unity_0_cxx.cxx.o
+[        ] [179/215] Building CXX object build/comaps/3party/harfbuzz/CMakeFiles/harfbuzz.dir/Unity/unity_0_cxx.cxx.o
+[        ] [180/215] Building CXX object build/comaps/libs/indexer/CMakeFiles/indexer.dir/Unity/unity_1_cxx.cxx.o
+[        ] In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/android/.cxx/Debug/2s5r1c45/arm64-v8a/build/comaps/libs/indexer/CMakeFiles/indexer.dir/Unity/unity_1_cxx.cxx:47:
+[        ] /Users/gilmichael/Desktop/Projects/agus_maps_flutter/thirdparty/comaps/libs/indexer/road_shields_parser.cpp:407:24: warning: private field 'm_defaultType' is not used [-Wunused-private-field]
+[        ]   407 |   RoadShieldType const m_defaultType;
+[        ]       |                        ^
+[        ] 1 warning generated.
+[        ] [181/215] Building CXX object build/comaps/libs/indexer/CMakeFiles/indexer.dir/Unity/unity_0_cxx.cxx.o
+[        ] [182/215] Building CXX object build/comaps/3party/opening_hours/CMakeFiles/opening_hours.dir/Unity/unity_0_cxx.cxx.o
+[        ] [183/215] Building CXX object build/comaps/libs/editor/CMakeFiles/editor.dir/Unity/unity_0_cxx.cxx.o
+[        ] ninja: build stopped: subcommand failed.
+[        ] C++ build system [build] failed while executing:
+[        ]     /Users/gilmichael/Library/Android/sdk/cmake/3.22.1/bin/ninja \
+[        ]       -C \
+[        ]       /Users/gilmichael/Desktop/Projects/agus_maps_flutter/android/.cxx/Debug/2s5r1c45/arm64-v8a \
+[        ]       agus_maps_flutter \
+[        ]       fonts_tool \
+[        ]       mwm_diff_tool
+[        ]   from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/android
+[        ] 	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt.execute(ExecuteProcess.kt:288)
+[        ] 	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt$executeProcess$1.invoke(ExecuteProcess.kt:108)
+[        ] 	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt$executeProcess$1.invoke(ExecuteProcess.kt:106)
+[        ] 	at com.android.build.gradle.internal.cxx.timing.TimingEnvironmentKt.time(TimingEnvironment.kt:32)
+[        ] 	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt.executeProcess(ExecuteProcess.kt:106)
+[        ] 	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt.executeProcess$default(ExecuteProcess.kt:85)
+[        ] 	at com.android.build.gradle.internal.cxx.build.CxxRegularBuilder.executeProcessBatch(CxxRegularBuilder.kt:332)
+[        ] 	at com.android.build.gradle.internal.cxx.build.CxxRegularBuilder.build(CxxRegularBuilder.kt:129)
+[        ] 	at com.android.build.gradle.tasks.ExternalNativeBuildTask.doTaskAction(ExternalNativeBuildTask.kt:72)
+[        ] 	at com.android.build.gradle.internal.tasks.UnsafeOutputsTask$taskAction$$inlined$recordTaskAction$1.invoke(BaseTask.kt:59)
+[        ] 	at com.android.build.gradle.internal.tasks.Blocks.recordSpan(Blocks.java:51)
+[        ] 	at com.android.build.gradle.internal.tasks.UnsafeOutputsTask.taskAction(UnsafeOutputsTask.kt:81)
+[        ] 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+[        ] 	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+[        ] 	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:125)
+[        ] 	... 122 more
+[        ] Caused by: com.android.ide.common.process.ProcessException: Error while executing process /Users/gilmichael/Library/Android/sdk/cmake/3.22.1/bin/ninja with arguments {-C /Users/gilmichael/Desktop/Projects/agus_maps_flutter/android/.cxx/Debug/2s5r1c45/arm64-v8a agus_maps_flutter fonts_tool mwm_diff_tool}
+[        ] 	at com.android.build.gradle.internal.process.GradleProcessResult.buildProcessException(GradleProcessResult.java:73)
+[        ] 	at com.android.build.gradle.internal.process.GradleProcessResult.assertNormalExitValue(GradleProcessResult.java:48)
+[        ] 	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt.execute(ExecuteProcess.kt:277)
+[        ] 	... 136 more
+[        ] Caused by: org.gradle.process.internal.ExecException: Process 'command '/Users/gilmichael/Library/Android/sdk/cmake/3.22.1/bin/ninja'' finished with non-zero exit value 1
+[        ] 	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:442)
+[        ] 	at com.android.build.gradle.internal.process.GradleProcessResult.assertNormalExitValue(GradleProcessResult.java:46)
+[        ] 	... 137 more
+[        ] BUILD FAILED in 1m 2s
+[        ] 6 actionable tasks: 2 executed, 4 up-to-date
+[        ] Watched directory hierarchies: [/Users/gilmichael/.fluter-src/flutter/packages/flutter_tools/gradle, /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/android]
+[  +47 ms] Running Gradle task 'assembleDebug'... (completed in 63.1s)
+[  +31 ms] "flutter apk" took 64,115ms.
+[   +4 ms] executing: sw_vers -productName
+[  +14 ms] Exit code 0 from: sw_vers -productName
+[        ] macOS
+[        ] executing: sw_vers -productVersion
+[  +15 ms] Exit code 0 from: sw_vers -productVersion
+[        ] 26.1
+[        ] executing: sw_vers -buildVersion
+[  +12 ms] Exit code 0 from: sw_vers -buildVersion
+[        ] 25B78
+[        ] executing: uname -m
+[   +6 ms] Exit code 0 from: uname -m
+[        ] arm64
+[  +35 ms] Gradle task assembleDebug failed with exit code 1
+[        ] 
+           #0      throwToolExit (package:flutter_tools/src/base/common.dart:34:3)
+           #1      AndroidGradleBuilder.buildGradleApp (package:flutter_tools/src/android/gradle.dart:592:7)
+           <asynchronous suspension>
+           #2      AndroidGradleBuilder.buildApk (package:flutter_tools/src/android/gradle.dart:234:5)
+           <asynchronous suspension>
+           #3      BuildApkCommand.runCommand (package:flutter_tools/src/commands/build_apk.dart:131:5)
+           <asynchronous suspension>
+           #4      FlutterCommand.run.<anonymous closure> (package:flutter_tools/src/runner/flutter_command.dart:1559:27)
+           <asynchronous suspension>
+           #5      AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+           <asynchronous suspension>
+           #6      CommandRunner.runCommand (package:args/command_runner.dart:212:13)
+           <asynchronous suspension>
+           #7      FlutterCommandRunner.runCommand.<anonymous closure> (package:flutter_tools/src/runner/flutter_command_runner.dart:487:9)
+           <asynchronous suspension>
+           #8      AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+           <asynchronous suspension>
+           #9      FlutterCommandRunner.runCommand (package:flutter_tools/src/runner/flutter_command_runner.dart:422:5)
+           <asynchronous suspension>
+           #10     run.<anonymous closure>.<anonymous closure> (package:flutter_tools/runner.dart:104:11)
+           <asynchronous suspension>
+           #11     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+           <asynchronous suspension>
+           #12     main (package:flutter_tools/executable.dart:103:3)
+           <asynchronous suspension>
+
+
+[        ] Running 1 shutdown hook
+[        ] Shutdown hooks complete
+[ +256 ms] exiting with code 1
