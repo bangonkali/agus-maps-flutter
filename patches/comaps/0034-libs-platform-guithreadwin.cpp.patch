@@ -1,0 +1,57 @@
+﻿diff --git a/libs/platform/gui_thread_win.cpp b/libs/platform/gui_thread_win.cpp
+new file mode 100644
+index 0000000..20ac926
+--- /dev/null
++++ b/libs/platform/gui_thread_win.cpp
+@@ -0,0 +1,50 @@
++// Windows GUI thread implementation for Flutter plugin
++// Uses a global task queue that Flutter can pump
++
++#include "platform/gui_thread.hpp"
++
++#include <mutex>
++#include <queue>
++
++namespace
++{
++// Global task queue for GUI thread tasks
++// Flutter's render loop will pump these tasks
++std::mutex g_mutex;
++std::queue<base::TaskLoop::Task> g_tasks;
++}  // namespace
++
++namespace platform
++{
++base::TaskLoop::PushResult GuiThread::Push(Task && task)
++{
++  std::lock_guard<std::mutex> lock(g_mutex);
++  g_tasks.push(std::move(task));
++  return {true, base::TaskLoop::kNoId};
++}
++
++base::TaskLoop::PushResult GuiThread::Push(Task const & task)
++{
++  std::lock_guard<std::mutex> lock(g_mutex);
++  g_tasks.push(task);
++  return {true, base::TaskLoop::kNoId};
++}
++
++// Call this from Flutter's render loop to process pending GUI tasks
++void ProcessGuiThreadTasks()
++{
++  base::TaskLoop::Task task;
++  while (true)
++  {
++    {
++      std::lock_guard<std::mutex> lock(g_mutex);
++      if (g_tasks.empty())
++        return;
++      task = std::move(g_tasks.front());
++      g_tasks.pop();
++    }
++    if (task)
++      task();
++  }
++}
++}  // namespace platform
+

@@ -52,15 +52,34 @@ FFI_PLUGIN_EXPORT void comaps_touch(int type, int id1, float x1, float y1, int i
 //          or MwmSet::RegResult value on registration failure
 FFI_PLUGIN_EXPORT int comaps_register_single_map(const char* fullPath);
 
-// Explicitly shutdown the CoMaps framework.
-// Call this before app termination to ensure clean shutdown and avoid crashes.
-FFI_PLUGIN_EXPORT void comaps_shutdown(void);
-
 // Debug: List all registered MWMs and their bounds to logcat
 FFI_PLUGIN_EXPORT void comaps_debug_list_mwms();
 
 // Debug: Check if a lat/lon point is covered by any registered MWM
 FFI_PLUGIN_EXPORT void comaps_debug_check_point(double lat, double lon);
+
+// Windows-specific surface management functions
+#if _WIN32
+// Set callback for frame ready notifications
+FFI_PLUGIN_EXPORT void comaps_set_frame_callback(void (*callback)());
+
+// Create rendering surface with given dimensions and density
+// Returns: texture ID or -1 on failure
+FFI_PLUGIN_EXPORT int comaps_create_surface(int width, int height, float density);
+
+// Optional: Provide Flutter's DXGI adapter to ensure we create a D3D device on the same adapter.
+// Must be called before comaps_create_surface.
+FFI_PLUGIN_EXPORT void comaps_set_dxgi_adapter(void* adapter);
+
+// Get D3D11 shared texture handle for Flutter texture bridge
+FFI_PLUGIN_EXPORT void* comaps_get_shared_handle();
+
+// Resize the rendering surface
+FFI_PLUGIN_EXPORT void comaps_resize_surface(int width, int height);
+
+// Destroy the rendering surface
+FFI_PLUGIN_EXPORT void comaps_destroy_surface();
+#endif
 
 #ifdef __cplusplus
 }

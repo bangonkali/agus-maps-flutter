@@ -1,0 +1,38 @@
+﻿diff --git a/libs/drape_frontend/active_frame_callback.cpp b/libs/drape_frontend/active_frame_callback.cpp
+new file mode 100644
+index 0000000..418817b
+--- /dev/null
++++ b/libs/drape_frontend/active_frame_callback.cpp
+@@ -0,0 +1,31 @@
++#include "drape_frontend/active_frame_callback.hpp"
++
++#include <mutex>
++
++namespace df
++{
++namespace
++{
++std::mutex g_callbackMutex;
++ActiveFrameCallback g_activeFrameCallback;
++}  // namespace
++
++void SetActiveFrameCallback(ActiveFrameCallback callback)
++{
++  std::lock_guard<std::mutex> lock(g_callbackMutex);
++  g_activeFrameCallback = std::move(callback);
++}
++
++void NotifyActiveFrame()
++{
++  ActiveFrameCallback callback;
++  {
++    std::lock_guard<std::mutex> lock(g_callbackMutex);
++    callback = g_activeFrameCallback;
++  }
++  
++  if (callback)
++    callback();
++}
++
++}  // namespace df
+

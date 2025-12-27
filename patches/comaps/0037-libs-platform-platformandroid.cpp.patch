@@ -1,0 +1,35 @@
+﻿diff --git a/libs/platform/platform_android.cpp b/libs/platform/platform_android.cpp
+index 46a953c..22baf77 100644
+--- a/libs/platform/platform_android.cpp
++++ b/libs/platform/platform_android.cpp
+@@ -105,14 +105,24 @@ std::unique_ptr<ModelReader> Platform::GetReader(std::string const & file, std::
+       break;
+ 
+     case 'r':
+-      ASSERT_EQUAL(file.find("assets/"), std::string::npos, ());
+-      try
++      // If resourcesDir is a directory (not a ZIP file), use FileReader like scope 'w'
++      if (!ZipFileReader::IsZip(m_resourcesDir))
+       {
+-        return make_unique<ZipFileReader>(m_resourcesDir, "assets/" + file, logPageSize, logPageCount);
++        auto const path = base::JoinPath(m_resourcesDir, file);
++        if (IsFileExistsByFullPath(path))
++          return std::make_unique<FileReader>(path, logPageSize, logPageCount);
+       }
+-      catch (Reader::OpenException const & e)
++      else
+       {
+-        LOG(LWARNING, ("Can't get reader:", e.what()));
++        ASSERT_EQUAL(file.find("assets/"), std::string::npos, ());
++        try
++        {
++          return make_unique<ZipFileReader>(m_resourcesDir, "assets/" + file, logPageSize, logPageCount);
++        }
++        catch (Reader::OpenException const & e)
++        {
++          LOG(LWARNING, ("Can't get reader:", e.what()));
++        }
+       }
+       break;
+ 
+

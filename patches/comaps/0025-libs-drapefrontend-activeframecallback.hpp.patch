@@ -1,0 +1,41 @@
+﻿diff --git a/libs/drape_frontend/active_frame_callback.hpp b/libs/drape_frontend/active_frame_callback.hpp
+new file mode 100644
+index 0000000..dc56e47
+--- /dev/null
++++ b/libs/drape_frontend/active_frame_callback.hpp
+@@ -0,0 +1,34 @@
++#pragma once
++
++/// @file active_frame_callback.hpp
++/// @brief Global callback for notifying when an active frame is rendered.
++/// 
++/// This callback is invoked from FrontendRenderer::RenderFrame() only when
++/// isActiveFrame is true (i.e., when the map content actually changed).
++/// This allows embedders (like Flutter plugins) to efficiently notify their
++/// texture systems only when there's new content to display, rather than
++/// on every Present() call.
++///
++/// Usage:
++///   1. Set the callback before creating the DrapeEngine:
++///      df::SetActiveFrameCallback([]() { /* notify Flutter */ });
++///   2. The callback will be invoked on the render thread.
++///   3. Embedders should dispatch to main thread if needed.
++
++#include <functional>
++
++namespace df
++{
++/// Callback type for active frame notification
++using ActiveFrameCallback = std::function<void()>;
++
++/// Set the callback to be invoked when an active frame is rendered.
++/// Pass nullptr to disable the callback.
++/// Thread-safe.
++void SetActiveFrameCallback(ActiveFrameCallback callback);
++
++/// Called internally by FrontendRenderer when isActiveFrame is true.
++/// This should not be called by external code.
++void NotifyActiveFrame();
++
++}  // namespace df
+

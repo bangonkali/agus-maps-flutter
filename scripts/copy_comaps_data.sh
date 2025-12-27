@@ -55,6 +55,13 @@ if [ -d "$COMAPS_DATA/countries-strings" ]; then
     echo "  ✓ countries-strings/"
 fi
 
+# Copy sound-strings (needed for TTS/voice navigation)
+if [ -d "$COMAPS_DATA/sound-strings" ]; then
+    mkdir -p "$DEST_DATA/sound-strings"
+    cp -r "$COMAPS_DATA/sound-strings/"* "$DEST_DATA/sound-strings/"
+    echo "  ✓ sound-strings/"
+fi
+
 # Copy symbols (needed for rendering)
 if [ -d "$COMAPS_DATA/symbols" ]; then
     mkdir -p "$DEST_DATA/symbols"

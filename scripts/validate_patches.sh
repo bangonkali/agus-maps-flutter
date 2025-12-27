@@ -97,8 +97,23 @@ COMAPS_REMOTE=$(git remote get-url origin)
 log_info "Current CoMaps version: $COMAPS_TAG"
 log_info "CoMaps remote: $COMAPS_REMOTE"
 
-# Get list of modified files in current checkout
-CURRENT_MODIFIED_FILES=$(git diff --name-only)
+# Get list of changed files in current checkout.
+# Include tracked diffs vs HEAD (staged + unstaged) and untracked files.
+CURRENT_MODIFIED_FILES=$( {
+    git diff --name-only HEAD
+    git ls-files --others --exclude-standard
+} | sort -u )
+
+# Filter out submodule paths (gitlink entries). They can appear in `git diff --name-only`
+# when submodules contain modified content, but we validate patches against actual file
+# diffs, not the submodule gitlink placeholder.
+SUBMODULE_PATHS=$(git config --file .gitmodules --get-regexp path 2>/dev/null | awk '{print $2}')
+if [[ -n "${SUBMODULE_PATHS}" ]]; then
+    while IFS= read -r sm; do
+        [[ -z "$sm" ]] && continue
+        CURRENT_MODIFIED_FILES=$(echo "$CURRENT_MODIFIED_FILES" | grep -v "^${sm}$" || true)
+    done <<< "$SUBMODULE_PATHS"
+fi
 if [[ -z "$CURRENT_MODIFIED_FILES" ]]; then
     log_success "No modifications in thirdparty/comaps - nothing to validate"
     exit 0
@@ -120,6 +135,12 @@ git clone --depth 1 --branch "$COMAPS_TAG" "$COMAPS_REMOTE" comaps 2>/dev/null |
     git clone --depth 1 "$COMAPS_REMOTE" comaps
 
 cd "$TEMP_COMAPS_DIR"
+
+# Ensure submodule contents exist before applying patches.
+# Our local ./thirdparty/comaps checkout is initialized recursively (see fetch_comaps.sh),
+# and many patches touch files that live inside CoMaps submodules.
+log_info "Updating submodules (recursive) in clean checkout..."
+git submodule update --init --recursive
 
 # Apply all patches to the clean checkout
 log_info "Applying patches to clean checkout..."
@@ -153,8 +174,12 @@ if $PATCH_FAILED; then
     log_error "Some patches failed to apply - patches may need updating for current CoMaps version"
 fi
 
-# Get list of modified files after applying patches
-PATCHED_MODIFIED_FILES=$(git diff --name-only)
+# Get list of changed files after applying patches.
+# `git apply` creates new files as untracked, so include untracked files here as well.
+PATCHED_MODIFIED_FILES=$( {
+    git diff --name-only HEAD
+    git ls-files --others --exclude-standard
+} | sort -u )
 log_info "Files modified by patches:"
 if [[ -z "$PATCHED_MODIFIED_FILES" ]]; then
     echo "  (none)"
@@ -194,7 +219,9 @@ while IFS= read -r file; do
     fi
 done <<< "$PATCHED_MODIFIED_FILES"
 
-# For files covered by patches, compare actual content
+# For files covered by patches, compare actual content.
+# Use `git diff --no-index --ignore-cr-at-eol` so Windows CRLF checkouts don't cause
+# false mismatches when patches apply with LF.
 log_info ""
 log_info "=== Comparing file contents ==="
 CONTENT_MISMATCH=false
@@ -202,7 +229,7 @@ CONTENT_MISMATCH=false
 while IFS= read -r file; do
     if [[ -n "$file" ]] && echo "$PATCHED_MODIFIED_FILES" | grep -q "^${file}$"; then
         # Compare the file content
-        if diff -q "$COMAPS_DIR/$file" "$TEMP_COMAPS_DIR/$file" > /dev/null 2>&1; then
+        if git diff --no-index --ignore-cr-at-eol --exit-code -- "$TEMP_COMAPS_DIR/$file" "$COMAPS_DIR/$file" > /dev/null 2>&1; then
             log_success "  $file - content matches patches"
         else
             log_error "  $file - content DIFFERS from patches"
@@ -210,8 +237,8 @@ while IFS= read -r file; do
             
             # Show the diff
             echo "    --- Difference ---"
-            diff -u "$TEMP_COMAPS_DIR/$file" "$COMAPS_DIR/$file" 2>/dev/null | head -30 | sed 's/^/    /'
-            if [[ $(diff -u "$TEMP_COMAPS_DIR/$file" "$COMAPS_DIR/$file" 2>/dev/null | wc -l) -gt 30 ]]; then
+            git diff --no-index --ignore-cr-at-eol -U3 -- "$TEMP_COMAPS_DIR/$file" "$COMAPS_DIR/$file" 2>/dev/null | head -30 | sed 's/^/    /'
+            if [[ $(git diff --no-index --ignore-cr-at-eol -U3 -- "$TEMP_COMAPS_DIR/$file" "$COMAPS_DIR/$file" 2>/dev/null | wc -l) -gt 30 ]]; then
                 echo "    ... (truncated, showing first 30 lines)"
             fi
             echo ""

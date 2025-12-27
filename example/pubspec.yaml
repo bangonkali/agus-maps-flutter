@@ -98,8 +98,54 @@ flutter:
     # CoMaps data files for engine initialization
     - assets/comaps_data/
     - assets/comaps_data/fonts/
+    # Categories-strings (for search)
     - assets/comaps_data/categories-strings/
+    # Countries-strings (for country name localization)
     - assets/comaps_data/countries-strings/
+    - assets/comaps_data/countries-strings/ar.json/
+    - assets/comaps_data/countries-strings/ast.json/
+    - assets/comaps_data/countries-strings/az.json/
+    - assets/comaps_data/countries-strings/be.json/
+    - assets/comaps_data/countries-strings/ca.json/
+    - assets/comaps_data/countries-strings/cs.json/
+    - assets/comaps_data/countries-strings/cy.json/
+    - assets/comaps_data/countries-strings/da.json/
+    - assets/comaps_data/countries-strings/de.json/
+    - assets/comaps_data/countries-strings/default.json/
+    - assets/comaps_data/countries-strings/el.json/
+    - assets/comaps_data/countries-strings/en.json/
+    - assets/comaps_data/countries-strings/es.json/
+    - assets/comaps_data/countries-strings/et.json/
+    - assets/comaps_data/countries-strings/eu.json/
+    - assets/comaps_data/countries-strings/fa.json/
+    - assets/comaps_data/countries-strings/fi.json/
+    - assets/comaps_data/countries-strings/fr.json/
+    - assets/comaps_data/countries-strings/he.json/
+    - assets/comaps_data/countries-strings/hu.json/
+    - assets/comaps_data/countries-strings/ia.json/
+    - assets/comaps_data/countries-strings/id.json/
+    - assets/comaps_data/countries-strings/it.json/
+    - assets/comaps_data/countries-strings/ja.json/
+    - assets/comaps_data/countries-strings/kab.json/
+    - assets/comaps_data/countries-strings/ko.json/
+    - assets/comaps_data/countries-strings/lt.json/
+    - assets/comaps_data/countries-strings/mr.json/
+    - assets/comaps_data/countries-strings/nb.json/
+    - assets/comaps_data/countries-strings/nl.json/
+    - assets/comaps_data/countries-strings/pl.json/
+    - assets/comaps_data/countries-strings/pt.json/
+    - assets/comaps_data/countries-strings/ro.json/
+    - assets/comaps_data/countries-strings/ru.json/
+    - assets/comaps_data/countries-strings/sk.json/
+    - assets/comaps_data/countries-strings/sr.json/
+    - assets/comaps_data/countries-strings/sr_Latn.json/
+    - assets/comaps_data/countries-strings/sv.json/
+    - assets/comaps_data/countries-strings/th.json/
+    - assets/comaps_data/countries-strings/tr.json/
+    - assets/comaps_data/countries-strings/uk.json/
+    - assets/comaps_data/countries-strings/vi.json/
+    - assets/comaps_data/countries-strings/zh-Hans.json/
+    - assets/comaps_data/countries-strings/zh-Hant.json/
     - assets/comaps_data/symbols/
     - assets/comaps_data/symbols/6plus/
     - assets/comaps_data/symbols/6plus/dark/
@@ -137,6 +183,51 @@ flutter:
     - assets/comaps_data/styles/outdoors/include/
     - assets/comaps_data/styles/outdoors/light/
     - assets/comaps_data/styles/outdoors/dark/
+    # Sound strings for TTS/voice navigation
+    - assets/comaps_data/sound-strings/
+    - assets/comaps_data/sound-strings/ar.json/
+    - assets/comaps_data/sound-strings/be.json/
+    - assets/comaps_data/sound-strings/bg.json/
+    - assets/comaps_data/sound-strings/ca.json/
+    - assets/comaps_data/sound-strings/cs.json/
+    - assets/comaps_data/sound-strings/da.json/
+    - assets/comaps_data/sound-strings/de.json/
+    - assets/comaps_data/sound-strings/el.json/
+    - assets/comaps_data/sound-strings/en.json/
+    - assets/comaps_data/sound-strings/es.json/
+    - assets/comaps_data/sound-strings/es-MX.json/
+    - assets/comaps_data/sound-strings/et.json/
+    - assets/comaps_data/sound-strings/eu.json/
+    - assets/comaps_data/sound-strings/fa.json/
+    - assets/comaps_data/sound-strings/fi.json/
+    - assets/comaps_data/sound-strings/fr.json/
+    - assets/comaps_data/sound-strings/hi.json/
+    - assets/comaps_data/sound-strings/hr.json/
+    - assets/comaps_data/sound-strings/hu.json/
+    - assets/comaps_data/sound-strings/id.json/
+    - assets/comaps_data/sound-strings/it.json/
+    - assets/comaps_data/sound-strings/ja.json/
+    - assets/comaps_data/sound-strings/ko.json/
+    - assets/comaps_data/sound-strings/lt.json/
+    - assets/comaps_data/sound-strings/lv.json/
+    - assets/comaps_data/sound-strings/mr.json/
+    - assets/comaps_data/sound-strings/nb.json/
+    - assets/comaps_data/sound-strings/nl.json/
+    - assets/comaps_data/sound-strings/pl.json/
+    - assets/comaps_data/sound-strings/pt.json/
+    - assets/comaps_data/sound-strings/pt-BR.json/
+    - assets/comaps_data/sound-strings/ro.json/
+    - assets/comaps_data/sound-strings/ru.json/
+    - assets/comaps_data/sound-strings/sk.json/
+    - assets/comaps_data/sound-strings/sr.json/
+    - assets/comaps_data/sound-strings/sv.json/
+    - assets/comaps_data/sound-strings/sw.json/
+    - assets/comaps_data/sound-strings/th.json/
+    - assets/comaps_data/sound-strings/tr.json/
+    - assets/comaps_data/sound-strings/uk.json/
+    - assets/comaps_data/sound-strings/vi.json/
+    - assets/comaps_data/sound-strings/zh-Hans.json/
+    - assets/comaps_data/sound-strings/zh-Hant.json/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

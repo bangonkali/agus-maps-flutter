@@ -1,0 +1,53 @@
+﻿diff --git a/libs/platform/http_thread_win.cpp b/libs/platform/http_thread_win.cpp
+new file mode 100644
+index 0000000..33d6be8
+--- /dev/null
++++ b/libs/platform/http_thread_win.cpp
+@@ -0,0 +1,46 @@
++// Windows HTTP thread implementation for Flutter plugin
++// Simple curl-based implementation
++
++#include "platform/http_request.hpp"
++#include "platform/http_thread_callback.hpp"
++
++#include "base/logging.hpp"
++
++class HttpThread
++{
++public:
++  HttpThread(std::string const & /*url*/,
++             downloader::IHttpThreadCallback & /*callback*/,
++             int64_t /*beg*/,
++             int64_t /*end*/,
++             int64_t /*size*/,
++             std::string const & /*postBody*/)
++  {
++    // TODO: Implement using WinHTTP or curl
++    LOG(LWARNING, ("HttpThread not implemented for Windows without Qt"));
++  }
++  
++  ~HttpThread() = default;
++};
++
++namespace downloader
++{
++
++HttpThread * CreateNativeHttpThread(std::string const & /*url*/,
++                                    IHttpThreadCallback & /*callback*/,
++                                    int64_t /*begRange*/,
++                                    int64_t /*endRange*/,
++                                    int64_t /*expectedFileSize*/,
++                                    std::string const & /*postBody*/)
++{
++  // TODO: Implement proper HTTP thread for Windows
++  LOG(LWARNING, ("CreateNativeHttpThread not implemented for Windows without Qt"));
++  return nullptr;
++}
++
++void DeleteNativeHttpThread(HttpThread * thread)
++{
++  delete thread;
++}
++
++}  // namespace downloader
+

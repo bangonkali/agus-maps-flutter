@@ -1,0 +1,14 @@
+﻿diff --git a/libs/drape_frontend/CMakeLists.txt b/libs/drape_frontend/CMakeLists.txt
+index 472346a..e03ec81 100644
+--- a/libs/drape_frontend/CMakeLists.txt
++++ b/libs/drape_frontend/CMakeLists.txt
+@@ -72,6 +72,8 @@ set(SRC
+   engine_context.cpp
+   engine_context.hpp
+   frame_values.hpp
++  active_frame_callback.cpp
++  active_frame_callback.hpp
+   frontend_renderer.cpp
+   frontend_renderer.hpp
+   gps_track_point.hpp
+

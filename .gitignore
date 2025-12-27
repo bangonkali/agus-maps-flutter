@@ -10,6 +10,7 @@
 .history
 .svn/
 .swiftpm/
+vcpkg_installed/
 migrate_working_dir/
 
 # IntelliJ related
@@ -53,3 +54,9 @@ macos/Resources/
 
 # Android native libraries (downloaded during build)
 android/src/main/jniLibs/
+
+# Windows vcpkg cache files (generated during vcpkg install)
+*.nupkg
+
+# Patch backup directories (created during patch regeneration)
+patches_backup_*/
