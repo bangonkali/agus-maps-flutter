@@ -1,0 +1,955 @@
+Resolving dependencies...
+Downloading packages...
+  characters 1.4.0 (1.4.1 available)
+  connectivity_plus 6.1.5 (7.0.0 available)
+  flutter_lints 5.0.0 (6.0.0 available)
+  image 4.7.1 (4.7.2 available)
+  lints 5.1.1 (6.0.0 available)
+  matcher 0.12.17 (0.12.18 available)
+  material_color_utilities 0.11.1 (0.13.0 available)
+  test_api 0.7.7 (0.7.8 available)
+Got dependencies!
+8 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Building macOS application...                                   
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:22:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/api_mark_point.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/user_mark.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape_frontend/user_marks_provider.hpp:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape_frontend/render_state_extension.hpp:6:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape/render_state.hpp:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape/graphics_context.hpp:3:
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape/drape_global.hpp:16:9: warning: 'OMIM_METAL_AVAILABLE' macro redefined [-Wmacro-redefined]
+   16 | #define OMIM_METAL_AVAILABLE
+      |         ^
+In file included from <built-in>:562:
+    7 | #define OMIM_METAL_AVAILABLE 1
+      |         ^
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:22:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/api_mark_point.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/user_mark.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape_frontend/user_marks_provider.hpp:9:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape/utils/projection.hpp:5:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/indexer/drawing_rule_def.hpp:5:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/indexer/feature.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/indexer/metadata_serdes.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/coding/map_uint32_to_val.hpp:6:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/coding/succinct_mapper.hpp:15:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/succinct/mappable_vector.hpp:7:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/boost/boost/range.hpp:20:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/boost/boost/range/iterator_range.hpp:13:
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/boost/boost/range/iterator_range_core.hpp:836:20: warning: parameter 'Range' not found in the function declaration [-Wdocumentation]
+  836 |             \param Range An input range
+      |                    ^~~~~
+  836 |             \param Range An input range
+      |                    ^~~~~
+      |                    r
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:22:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/api_mark_point.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/user_mark.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape_frontend/user_marks_provider.hpp:9:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape/utils/projection.hpp:5:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/indexer/drawing_rule_def.hpp:5:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/indexer/feature.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/indexer/metadata_serdes.hpp:5:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/coding/text_storage.hpp:9:
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/base/lru_cache.hpp:21:14: warning: parameter 'loader' not found in the function declaration [-Wdocumentation]
+   21 |   /// \param loader Function which is called if it's necessary to load a new item for the cache.
+      |              ^~~~~~
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:22:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/bookmark.hpp:8:
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/search/reverse_geocoder.hpp:132:8: warning: '@return' command used in a comment that is attached to a function returning void [-Wdocumentation]
+  132 |   /// @return The nearest exact address where building has house number and valid street match.
+      |       ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/search/reverse_geocoder.hpp:174:8: warning: '@return' command used in a comment that is attached to a function returning void [-Wdocumentation]
+  174 |   /// @return Sorted by distance houses vector with valid house number.
+      |       ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:22:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:5:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/bookmark_manager.hpp:9:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/search/region_address_getter.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/search/city_finder.hpp:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/search/locality_finder.hpp:5:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/indexer/feature_utils.hpp:6:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/indexer/ftraits.hpp:8:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/platform/platform.hpp:21:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/boost/boost/regex.hpp:34:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/boost/boost/regex/v5/regex.hpp:31:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/boost/boost/regex/regex_traits.hpp:30:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/boost/boost/regex/v5/regex_traits.hpp:26:
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/boost/boost/regex/v5/regex_traits_defaults.hpp:219:47: warning: not a Doxygen trailing comment [-Wdocumentation]
+  219 |       regex_constants::escape_type_left_word, /*<*/
+      |                                               ^~~~
+      |                                               /**<
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/boost/boost/regex/v5/regex_traits_defaults.hpp:414:54: warning: not a Doxygen trailing comment [-Wdocumentation]
+  414 |       regex_constants::escape_type_left_word,        /*<*/
+      |                                                      ^~~~
+      |                                                      /**<
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:22:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:5:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/bookmark_manager.hpp:9:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/search/region_address_getter.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/search/city_finder.hpp:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/search/locality_finder.hpp:5:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/indexer/feature_utils.hpp:6:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/indexer/ftraits.hpp:8:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/platform/platform.hpp:21:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/boost/boost/regex.hpp:34:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/boost/boost/regex/v5/regex.hpp:31:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/boost/boost/regex/regex_traits.hpp:30:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/boost/boost/regex/v5/regex_traits.hpp:28:
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/boost/boost/regex/v5/c_regex_traits.hpp:294:17: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  294 |    int result = std::strtol(b, &ep, radix);
+      |        ~~~~~~   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/boost/boost/regex/v5/c_regex_traits.hpp:461:17: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  461 |    int result = std::wcstol(b, &ep, radix);
+      |        ~~~~~~   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:22:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:5:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/bookmark_manager.hpp:9:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/search/region_address_getter.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/search/city_finder.hpp:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/search/locality_finder.hpp:5:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/indexer/feature_utils.hpp:6:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/indexer/ftraits.hpp:8:
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/platform/platform.hpp:200:33: warning: empty paragraph passed to '@throws' command [-Wdocumentation]
+  200 |   /// @throws FileAbsentException
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:22:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:5:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/bookmark_manager.hpp:9:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/search/region_address_getter.hpp:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/search/region_info_getter.hpp:3:
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/storage/country_tree.hpp:104:8: warning: '\returns' command used in a comment that is attached to a function returning void [-Wdocumentation]
+  104 |   /// \returns a poiter item in the tree if found and nullptr otherwise.
+      |       ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:22:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:9:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/place_page_info.hpp:7:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape_frontend/frontend_renderer.hpp:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape_frontend/drape_api_renderer.hpp:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape_frontend/frame_values.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape/glsl_types.hpp:7:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/quaternion.hpp:17:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../mat3x3.hpp:8:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/type_mat3x3.hpp:189:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/type_mat3x3.inl:4:
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/func_matrix.hpp:110:14: warning: template parameter 'matType' not found in the template declaration [-Wdocumentation]
+  110 |         /// @tparam matType Floating-point matrix types.
+      |                     ^~~~~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/func_matrix.hpp:128:14: warning: template parameter 'valType' not found in the template declaration [-Wdocumentation]
+  128 |         /// @tparam valType Floating-point scalar types.
+      |                     ^~~~~~~
+  128 |         /// @tparam valType Floating-point scalar types.
+      |                     ^~~~~~~
+      |                     matType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/func_matrix.hpp:137:14: warning: template parameter 'valType' not found in the template declaration [-Wdocumentation]
+  137 |         /// @tparam valType Floating-point scalar types.
+      |                     ^~~~~~~
+  137 |         /// @tparam valType Floating-point scalar types.
+      |                     ^~~~~~~
+      |                     matType
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:22:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:9:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/place_page_info.hpp:7:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape_frontend/frontend_renderer.hpp:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape_frontend/drape_api_renderer.hpp:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape_frontend/frame_values.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape/glsl_types.hpp:7:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/quaternion.hpp:17:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../mat3x3.hpp:8:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/type_mat3x3.hpp:189:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/type_mat3x3.inl:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/func_matrix.hpp:147:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/func_matrix.inl:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../geometric.hpp:8:
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../detail/func_geometric.hpp:22:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+   22 |         /// @tparam genType Floating-point vector types.
+      |                     ^~~~~~~
+   22 |         /// @tparam genType Floating-point vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../detail/func_geometric.hpp:32:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+   32 |         /// @tparam genType Floating-point vector types.
+      |                     ^~~~~~~
+   32 |         /// @tparam genType Floating-point vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../detail/func_geometric.hpp:43:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+   43 |         /// @tparam genType Floating-point vector types.
+      |                     ^~~~~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../detail/func_geometric.hpp:54:14: warning: template parameter 'valType' not found in the template declaration [-Wdocumentation]
+   54 |         /// @tparam valType Floating-point scalar types.
+      |                     ^~~~~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../detail/func_geometric.hpp:74:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+   74 |         /// @tparam genType Floating-point vector types.
+      |                     ^~~~~~~
+   74 |         /// @tparam genType Floating-point vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../detail/func_geometric.hpp:100:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+  100 |         /// @tparam genType Floating-point vector types.
+      |                     ^~~~~~~
+  100 |         /// @tparam genType Floating-point vector types.
+      |                     ^~~~~~~
+      |                     vecType
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:22:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:9:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/place_page_info.hpp:7:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape_frontend/frontend_renderer.hpp:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape_frontend/drape_api_renderer.hpp:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape_frontend/frame_values.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape/glsl_types.hpp:7:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/quaternion.hpp:17:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../mat3x3.hpp:8:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/type_mat3x3.hpp:189:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/type_mat3x3.inl:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/func_matrix.hpp:147:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/func_matrix.inl:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../geometric.hpp:8:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../detail/func_geometric.hpp:113:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../detail/func_geometric.inl:4:
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../detail/func_exponential.hpp:28:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+   28 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+   28 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../detail/func_exponential.hpp:38:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+   38 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+   38 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../detail/func_exponential.hpp:50:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+   50 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+   50 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../detail/func_exponential.hpp:60:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+   60 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+   60 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../detail/func_exponential.hpp:71:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+   71 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+   71 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../detail/func_exponential.hpp:93:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+   93 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+   93 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:22:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:9:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/place_page_info.hpp:7:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape_frontend/frontend_renderer.hpp:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape_frontend/drape_api_renderer.hpp:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape_frontend/frame_values.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape/glsl_types.hpp:7:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/quaternion.hpp:17:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../mat3x3.hpp:8:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/type_mat3x3.hpp:189:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/type_mat3x3.inl:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/func_matrix.hpp:147:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/func_matrix.inl:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../geometric.hpp:8:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../detail/func_geometric.hpp:113:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../detail/func_geometric.inl:5:
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../detail/func_common.hpp:37:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+   37 |         /// @tparam genType Floating-point or signed integer; scalar or vector types.
+      |                     ^~~~~~~
+   37 |         /// @tparam genType Floating-point or signed integer; scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../detail/func_common.hpp:46:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+   46 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+   46 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../detail/func_common.hpp:56:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+   56 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+   56 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../detail/func_common.hpp:69:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+   69 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+   69 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../detail/func_common.hpp:80:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+   80 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+   80 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../detail/func_common.hpp:91:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+   91 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+   91 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../detail/func_common.hpp:208:14: warning: template parameter 'genTypeT' not found in the template declaration [-Wdocumentation]
+  208 |         /// @tparam     genTypeT Floating point scalar or vector.
+      |                         ^~~~~~~~
+  208 |         /// @tparam     genTypeT Floating point scalar or vector.
+      |                         ^~~~~~~~
+      |                         vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../detail/func_common.hpp:209:14: warning: template parameter 'genTypeU' not found in the template declaration [-Wdocumentation]
+  209 |         /// @tparam genTypeU Floating point or boolean scalar or vector. It can't be a vector if it is the length of genTypeT.
+      |                     ^~~~~~~~
+  209 |         /// @tparam genTypeU Floating point or boolean scalar or vector. It can't be a vector if it is the length of genTypeT.
+      |                     ^~~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../detail/func_common.hpp:191:32: warning: HTML tag 'a' requires an end tag [-Wdocumentation-html]
+  191 |         /// from. For a component of <a> that is false, the
+      |                                      ~^~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../detail/func_common.hpp:287:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+  287 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+  287 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/../detail/func_common.hpp:300:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+  300 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+  300 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:22:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:9:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/place_page_info.hpp:7:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape_frontend/frontend_renderer.hpp:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape_frontend/drape_api_renderer.hpp:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape_frontend/frame_values.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape/glsl_types.hpp:7:
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/quaternion.hpp:325:14: warning: template parameter 'quatType' not found in the template declaration [-Wdocumentation]
+  325 |         /// @tparam quatType Floating-point quaternion types.
+      |                     ^~~~~~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/quaternion.hpp:333:14: warning: template parameter 'quatType' not found in the template declaration [-Wdocumentation]
+  333 |         /// @tparam quatType Floating-point quaternion types.
+      |                     ^~~~~~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/quaternion.hpp:341:14: warning: template parameter 'quatType' not found in the template declaration [-Wdocumentation]
+  341 |         /// @tparam quatType Floating-point quaternion types.
+      |                     ^~~~~~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/quaternion.hpp:349:14: warning: template parameter 'quatType' not found in the template declaration [-Wdocumentation]
+  349 |         /// @tparam quatType Floating-point quaternion types.
+      |                     ^~~~~~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/quaternion.hpp:357:14: warning: template parameter 'quatType' not found in the template declaration [-Wdocumentation]
+  357 |         /// @tparam quatType Floating-point quaternion types.
+      |                     ^~~~~~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/quaternion.hpp:365:14: warning: template parameter 'quatType' not found in the template declaration [-Wdocumentation]
+  365 |         /// @tparam quatType Floating-point quaternion types.
+      |                     ^~~~~~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/quaternion.hpp:379:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+  379 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/quaternion.hpp:389:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+  389 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:22:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:9:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/place_page_info.hpp:7:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape_frontend/frontend_renderer.hpp:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape_frontend/drape_api_renderer.hpp:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape_frontend/frame_values.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape/glsl_types.hpp:7:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/quaternion.hpp:396:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/quaternion.inl:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../trigonometric.hpp:8:
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/func_trigonometric.hpp:27:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+   27 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+   27 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/func_trigonometric.hpp:36:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+   36 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+   36 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/func_trigonometric.hpp:46:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+   46 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+   46 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/func_trigonometric.hpp:56:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+   56 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+   56 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/func_trigonometric.hpp:65:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+   65 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+   65 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/func_trigonometric.hpp:76:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+   76 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+   76 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/func_trigonometric.hpp:87:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+   87 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+   87 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/func_trigonometric.hpp:100:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+  100 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+  100 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/func_trigonometric.hpp:110:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+  110 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+  110 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/func_trigonometric.hpp:119:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+  119 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+  119 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/func_trigonometric.hpp:128:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+  128 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+  128 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/func_trigonometric.hpp:137:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+  137 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+  137 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/func_trigonometric.hpp:146:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+  146 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+  146 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/func_trigonometric.hpp:156:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+  156 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+  156 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/../detail/func_trigonometric.hpp:166:14: warning: template parameter 'genType' not found in the template declaration [-Wdocumentation]
+  166 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+  166 |         /// @tparam genType Floating-point scalar or vector types.
+      |                     ^~~~~~~
+      |                     vecType
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:22:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:9:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/place_page_info.hpp:7:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape_frontend/frontend_renderer.hpp:6:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape_frontend/gps_track_renderer.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape_frontend/circles_pack_shape.hpp:7:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape/overlay_handle.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape/attribute_buffer_mutator.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape/binding_info.hpp:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape/glsl_func.hpp:4:
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:92:16: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+   92 |         /// @param left
+      |             ~~~~~~~~~~^
+   93 |         /// @param right
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:93:17: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+   93 |         /// @param right
+      |             ~~~~~~~~~~~^
+   94 |         /// @param bottom
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:94:18: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+   94 |         /// @param bottom
+      |             ~~~~~~~~~~~~^
+   95 |         /// @param top
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:95:15: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+   95 |         /// @param top
+      |             ~~~~~~~~~^
+   96 |         /// @param zNear
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:96:17: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+   96 |         /// @param zNear
+      |             ~~~~~~~~~~~^
+   97 |         /// @param zFar
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:97:16: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+   97 |         /// @param zFar
+      |             ~~~~~~~~~~^
+   98 |         /// @tparam T Value type used to build the matrix. Currently supported: half (not recommanded), float or double.
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:112:16: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  112 |         /// @param left
+      |             ~~~~~~~~~~^
+  113 |         /// @param right
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:113:17: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  113 |         /// @param right
+      |             ~~~~~~~~~~~^
+  114 |         /// @param bottom
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:114:18: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  114 |         /// @param bottom
+      |             ~~~~~~~~~~~~^
+  115 |         /// @param top
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:115:15: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  115 |         /// @param top
+      |             ~~~~~~~~~^
+  116 |         /// @param zNear
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:116:17: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  116 |         /// @param zNear
+      |             ~~~~~~~~~~~^
+  117 |         /// @param zFar
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:117:16: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  117 |         /// @param zFar
+      |             ~~~~~~~~~~^
+  118 |         /// @tparam T Value type used to build the matrix. Currently supported: half (not recommanded), float or double.
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:132:16: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  132 |         /// @param left
+      |             ~~~~~~~~~~^
+  133 |         /// @param right
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:133:17: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  133 |         /// @param right
+      |             ~~~~~~~~~~~^
+  134 |         /// @param bottom
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:134:18: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  134 |         /// @param bottom
+      |             ~~~~~~~~~~~~^
+  135 |         /// @param top
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:135:15: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  135 |         /// @param top
+      |             ~~~~~~~~~^
+  136 |         /// @param zNear
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:136:17: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  136 |         /// @param zNear
+      |             ~~~~~~~~~~~^
+  137 |         /// @param zFar
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:137:16: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  137 |         /// @param zFar
+      |             ~~~~~~~~~~^
+  138 |         /// @tparam T Value type used to build the matrix. Currently supported: half (not recommanded), float or double.
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:152:16: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  152 |         /// @param left
+      |             ~~~~~~~~~~^
+  153 |         /// @param right
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:153:17: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  153 |         /// @param right
+      |             ~~~~~~~~~~~^
+  154 |         /// @param bottom
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:154:18: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  154 |         /// @param bottom
+      |             ~~~~~~~~~~~~^
+  155 |         /// @param top
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:155:15: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  155 |         /// @param top
+      |             ~~~~~~~~~^
+  156 |         /// @tparam T Value type used to build the matrix. Currently supported: half (not recommanded), float or double.
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:168:16: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  168 |         /// @param left
+      |             ~~~~~~~~~~^
+  169 |         /// @param right
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:169:17: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  169 |         /// @param right
+      |             ~~~~~~~~~~~^
+  170 |         /// @param bottom
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:170:18: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  170 |         /// @param bottom
+      |             ~~~~~~~~~~~~^
+  171 |         /// @param top
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:171:15: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  171 |         /// @param top
+      |             ~~~~~~~~~^
+  172 |         /// @param near
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:172:16: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  172 |         /// @param near
+      |             ~~~~~~~~~~^
+  173 |         /// @param far
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:173:15: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  173 |         /// @param far
+      |             ~~~~~~~~~^
+  174 |         /// @tparam T Value type used to build the matrix. Currently supported: half (not recommanded), float or double.
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:187:16: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  187 |         /// @param left
+      |             ~~~~~~~~~~^
+  188 |         /// @param right
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:188:17: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  188 |         /// @param right
+      |             ~~~~~~~~~~~^
+  189 |         /// @param bottom
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:189:18: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  189 |         /// @param bottom
+      |             ~~~~~~~~~~~~^
+  190 |         /// @param top
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:190:15: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  190 |         /// @param top
+      |             ~~~~~~~~~^
+  191 |         /// @param near
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:191:16: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  191 |         /// @param near
+      |             ~~~~~~~~~~^
+  192 |         /// @param far
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:192:15: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  192 |         /// @param far
+      |             ~~~~~~~~~^
+  193 |         /// @tparam T Value type used to build the matrix. Currently supported: half (not recommanded), float or double.
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:206:16: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  206 |         /// @param left
+      |             ~~~~~~~~~~^
+  207 |         /// @param right
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:207:17: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  207 |         /// @param right
+      |             ~~~~~~~~~~~^
+  208 |         /// @param bottom
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:208:18: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  208 |         /// @param bottom
+      |             ~~~~~~~~~~~~^
+  209 |         /// @param top
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:209:15: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  209 |         /// @param top
+      |             ~~~~~~~~~^
+  210 |         /// @param near
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:210:16: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  210 |         /// @param near
+      |             ~~~~~~~~~~^
+  211 |         /// @param far
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:211:15: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  211 |         /// @param far
+      |             ~~~~~~~~~^
+  212 |         /// @tparam T Value type used to build the matrix. Currently supported: half (not recommanded), float or double.
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:271:17: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  271 |         /// @param width 
+      |             ~~~~~~~~~~~^
+  272 |         /// @param height 
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:272:18: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  272 |         /// @param height 
+      |             ~~~~~~~~~~~~^
+  273 |         /// @param near Specifies the distance from the viewer to the near clipping plane (always positive).
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:288:17: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  288 |         /// @param width 
+      |             ~~~~~~~~~~~^
+  289 |         /// @param height 
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:289:18: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  289 |         /// @param height 
+      |             ~~~~~~~~~~~~^
+  290 |         /// @param near Specifies the distance from the viewer to the near clipping plane (always positive).
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:305:17: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  305 |         /// @param width 
+      |             ~~~~~~~~~~~^
+  306 |         /// @param height 
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:306:18: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  306 |         /// @param height 
+      |             ~~~~~~~~~~~~^
+  307 |         /// @param near Specifies the distance from the viewer to the near clipping plane (always positive).
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:368:14: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  368 |         /// @param ep 
+      |             ~~~~~~~~^
+  369 |         /// @tparam T Value type used to build the matrix. Currently supported: half (not recommanded), float or double.
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:411:18: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  411 |         /// @param center
+      |             ~~~~~~~~~~~~^
+  412 |         /// @param delta
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:412:17: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  412 |         /// @param delta
+      |             ~~~~~~~~~~~^
+  413 |         /// @param viewport
+      |         ~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtc/matrix_transform.hpp:413:20: warning: empty paragraph passed to '@param' command [-Wdocumentation]
+  413 |         /// @param viewport
+      |             ~~~~~~~~~~~~~~^
+  414 |         /// @tparam T Native type used for the computation. Currently supported: half (not recommanded), float or double.
+      |         ~~~
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:22:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:9:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/place_page_info.hpp:7:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape_frontend/frontend_renderer.hpp:6:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape_frontend/gps_track_renderer.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape_frontend/circles_pack_shape.hpp:7:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape/overlay_handle.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape/attribute_buffer_mutator.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape/binding_info.hpp:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/drape/glsl_func.hpp:6:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/std/glm_gtx_rotate_vector.hpp:11:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtx/rotate_vector.hpp:17:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtx/../glm.hpp:90:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtx/../integer.hpp:8:
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtx/../detail/func_integer.hpp:29:14: warning: template parameter 'genUType' not found in the template declaration [-Wdocumentation]
+   29 |         /// @tparam genUType Unsigned integer scalar or vector types.
+      |                     ^~~~~~~~
+   29 |         /// @tparam genUType Unsigned integer scalar or vector types.
+      |                     ^~~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtx/../detail/func_integer.hpp:43:14: warning: template parameter 'genUType' not found in the template declaration [-Wdocumentation]
+   43 |         /// @tparam genUType Unsigned integer scalar or vector types.
+      |                     ^~~~~~~~
+   43 |         /// @tparam genUType Unsigned integer scalar or vector types.
+      |                     ^~~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtx/../detail/func_integer.hpp:57:14: warning: template parameter 'genUType' not found in the template declaration [-Wdocumentation]
+   57 |         /// @tparam genUType Unsigned integer scalar or vector types.
+      |                     ^~~~~~~~
+   57 |         /// @tparam genUType Unsigned integer scalar or vector types.
+      |                     ^~~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtx/../detail/func_integer.hpp:72:14: warning: template parameter 'genIType' not found in the template declaration [-Wdocumentation]
+   72 |         /// @tparam genIType Signed integer scalar or vector types.
+      |                     ^~~~~~~~
+   72 |         /// @tparam genIType Signed integer scalar or vector types.
+      |                     ^~~~~~~~
+      |                     vecType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtx/../detail/func_integer.hpp:138:14: warning: template parameter 'T' not found in the template declaration [-Wdocumentation]
+  138 |         /// @tparam T Signed or unsigned integer scalar or vector types.
+      |                     ^
+  138 |         /// @tparam T Signed or unsigned integer scalar or vector types.
+      |                     ^
+      |                     genType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtx/../detail/func_integer.hpp:158:14: warning: template parameter 'T' not found in the template declaration [-Wdocumentation]
+  158 |         /// @tparam T Signed or unsigned integer scalar types.
+      |                     ^
+  158 |         /// @tparam T Signed or unsigned integer scalar types.
+      |                     ^
+      |                     genIUType
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/3party/glm/glm/gtx/../detail/func_integer.hpp:181:14: warning: template parameter 'T' not found in the template declaration [-Wdocumentation]
+  181 |         /// @tparam T Signed or unsigned integer scalar types.
+      |                     ^
+  181 |         /// @tparam T Signed or unsigned integer scalar types.
+      |                     ^
+      |                     genIUType
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:22:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:13:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/routing_manager.hpp:11:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/routing/router.hpp:4:
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/routing/road_graph.hpp:120:8: warning: '@return' command used in a comment that is attached to a function returning void [-Wdocumentation]
+  120 |   /// @return Types for the specified edge
+      |       ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/routing/road_graph.hpp:123:8: warning: '@return' command used in a comment that is attached to a function returning void [-Wdocumentation]
+  123 |   /// @return Types for specified junction
+      |       ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/routing/road_graph.hpp:262:8: warning: '@return' command used in a comment that is not attached to a function or method declaration [-Wdocumentation]
+  262 |   /// @return Array of pairs of Edge and projection point on the Edge. If there is no the closest edges
+      |       ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  263 |   /// then returns empty array.
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/routing/road_graph.hpp:278:8: warning: '@return' command used in a comment that is attached to a function returning void [-Wdocumentation]
+  278 |   /// @return Types for the specified feature
+      |       ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/routing/road_graph.hpp:281:8: warning: '@return' command used in a comment that is attached to a function returning void [-Wdocumentation]
+  281 |   /// @return Types for the specified edge
+      |       ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:22:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:13:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/routing_manager.hpp:11:
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/routing/router.hpp:70:14: warning: parameter 'startPoint' not found in the function declaration [-Wdocumentation]
+   70 |   /// @param startPoint point to start routing
+      |              ^~~~~~~~~~
+   70 |   /// @param startPoint point to start routing
+      |              ^~~~~~~~~~
+      |              checkpoints
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/routing/router.hpp:72:14: warning: parameter 'finalPoint' not found in the function declaration [-Wdocumentation]
+   72 |   /// @param finalPoint target point for route
+      |              ^~~~~~~~~~
+   72 |   /// @param finalPoint target point for route
+      |              ^~~~~~~~~~
+      |              checkpoints
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:22:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:13:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/routing_manager.hpp:13:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/routing/routing_session.hpp:11:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/routing/speed_camera_manager.hpp:5:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/routing/routing_helpers.hpp:7:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/routing_common/bicycle_model.hpp:3:
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/routing_common/vehicle_model.hpp:68:8: warning: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+   68 |   /// @deprecated For unit tests compatibility.
+      |       ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   69 |   SpeedParams(bool forward, bool inCity, Maxspeed const & maxspeed)
+      |   ^
+      |   CA_DEPRECATED 
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/routing_common/vehicle_model.hpp:205:14: warning: parameter 'inCity' not found in the function declaration [-Wdocumentation]
+  205 |   /// @param inCity is true if |f| lies in a city of town.
+      |              ^~~~~~
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:22:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:13:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/routing_manager.hpp:13:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/routing/routing_session.hpp:11:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/routing/speed_camera_manager.hpp:7:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/routing/turns_notification_manager.hpp:3:
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/routing/turns_sound_settings.hpp:120:14: warning: parameter 'turnNotificationDistance' not found in the function declaration [-Wdocumentation]
+  120 |   /// \param turnNotificationDistance is a distance in m_lengthUnits.
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~
+  120 |   /// \param turnNotificationDistance is a distance in m_lengthUnits.
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~
+      |              turnNotificationUnits
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:22:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:13:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/routing_manager.hpp:13:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/routing/routing_session.hpp:11:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/routing/speed_camera_manager.hpp:7:
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/routing/turns_notification_manager.hpp:63:14: warning: parameter 'distanceToTurnMeters' not found in the function declaration [-Wdocumentation]
+   63 |   /// \param distanceToTurnMeters is distance to the next turn in meters.
+      |              ^~~~~~~~~~~~~~~~~~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/routing/turns_notification_manager.hpp:75:14: warning: parameter 'distanceToTurnMeters' not found in the function declaration [-Wdocumentation]
+   75 |   /// \param distanceToTurnMeters is distance to the next turn in meters.
+      |              ^~~~~~~~~~~~~~~~~~~~
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:22:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:13:
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/routing_manager.hpp:273:16: warning: parameter 'totalAscent' not found in the function declaration [-Wdocumentation]
+  273 |     /// \param totalAscent is total ascent of the route in meters.
+      |                ^~~~~~~~~~~
+  273 |     /// \param totalAscent is total ascent of the route in meters.
+      |                ^~~~~~~~~~~
+      |                totalAscentM
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/routing_manager.hpp:274:16: warning: parameter 'totalDescent' not found in the function declaration [-Wdocumentation]
+  274 |     /// \param totalDescent is total descent of the route in meters.
+      |                ^~~~~~~~~~~~
+  274 |     /// \param totalDescent is total descent of the route in meters.
+      |                ^~~~~~~~~~~~
+      |                totalDescentM
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/routing_manager.hpp:327:8: warning: '\returns' command used in a comment that is attached to a function returning void [-Wdocumentation]
+  327 |   /// \returns false if the location could not be matched to the route and should be matched to the
+      |       ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  328 |   /// road graph. Otherwise returns true.
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:22:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:15:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/search_api.hpp:4:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/everywhere_search_callback.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/everywhere_search_params.hpp:5:
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/search/result.hpp:225:8: warning: declaration is marked with '@deprecated' command but does not have a deprecation attribute [-Wdocumentation-deprecated-sync]
+  225 |   /// @deprecated Fucntion is obsolete (used in tests) and doesn't take into account bookmarks.
+      |       ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:22:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:33:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/editor/osm_editor.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/editor/changeset_wrapper.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/editor/server_api.hpp:3:
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/editor/osm_auth.hpp:87:13: warning: unrecognized parameter passing direction, valid directions are '[in]', '[out]' and '[in,out]' [-Wdocumentation]
+   87 |   /// @param[method] The API method, must start with a forward slash.
+      |             ^~~~~~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/editor/osm_auth.hpp:87:22: warning: parameter 'The' not found in the function declaration [-Wdocumentation]
+   87 |   /// @param[method] The API method, must start with a forward slash.
+      |                      ^~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/editor/osm_auth.hpp:91:13: warning: unrecognized parameter passing direction, valid directions are '[in]', '[out]' and '[in,out]' [-Wdocumentation]
+   91 |   /// @param[api] If false, request is made to m_baseUrl.
+      |             ^~~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/editor/osm_auth.hpp:91:19: warning: parameter 'If' not found in the function declaration [-Wdocumentation]
+   91 |   /// @param[api] If false, request is made to m_baseUrl.
+      |                   ^~
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:22:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:33:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/editor/osm_editor.hpp:3:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/editor/changeset_wrapper.hpp:3:
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/editor/server_api.hpp:70:8: warning: '@returns' command used in a comment that is attached to a function returning void [-Wdocumentation]
+   70 |   /// @returns true if element was successfully deleted (or was already deleted).
+      |       ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:22:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:33:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/editor/osm_editor.hpp:12:
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/indexer/editable_map_object.hpp:116:18: warning: parameter 'cuisine' not found in the function declaration [-Wdocumentation]
+  116 |   /// @param[in] cuisine is a vector of osm cuisine ids.
+      |                  ^~~~~~~
+  116 |   /// @param[in] cuisine is a vector of osm cuisine ids.
+      |                  ^~~~~~~
+      |                  cuisines
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:22:
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:46:
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/storage/storage.hpp:390:14: warning: parameter '|nodeAttrs|' not found in the function declaration [-Wdocumentation]
+  390 |   /// \param |nodeAttrs| is filled with attributes in this method.
+      |              ^~~~~~~~~~~
+  390 |   /// \param |nodeAttrs| is filled with attributes in this method.
+      |              ^~~~~~~~~~~
+      |              nodeAttrs
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/storage/storage.hpp:465:14: warning: parameter '|countryId|' not found in the function declaration [-Wdocumentation]
+  465 |   /// \param |countryId| is country id of a leaf. That means it's a file name.
+      |              ^~~~~~~~~~~
+  465 |   /// \param |countryId| is country id of a leaf. That means it's a file name.
+      |              ^~~~~~~~~~~
+      |              countryId
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/storage/storage.hpp:485:8: warning: '@param' command used in a comment that is not attached to a function declaration [-Wdocumentation]
+  485 |   /// @param[out] res Out vector, empty if all files are present some or error occured.
+      |        ^~~~~~
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/storage/storage.hpp:486:8: warning: '@return' command used in a comment that is not attached to a function or method declaration [-Wdocumentation]
+  486 |   /// @return     WorldStatus:
+      |       ~^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:22:
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:506:19: warning: parameter 'lat,' not found in the function declaration [-Wdocumentation]
+  506 |   /// @param[in]  lat, lon, north   Current position and heading from north;
+      |                   ^~~~
+  506 |   /// @param[in]  lat, lon, north   Current position and heading from north;
+      |                   ^~~~
+      |                   lat
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/example/macos/Flutter/ephemeral/.symlinks/plugins/agus_maps_flutter/thirdparty/comaps/libs/map/framework.hpp:621:14: warning: parameter 'customTitle,' not found in the function declaration [-Wdocumentation]
+  621 |   /// @param customTitle, if not empty, overrides any other calculated name.
+      |              ^~~~~~~~~~~~
+  621 |   /// @param customTitle, if not empty, overrides any other calculated name.
+      |              ^~~~~~~~~~~~
+      |              customTitle
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:129:13: error: use of undeclared identifier 'stopRenderKeepAliveTimer'
+  129 |             stopRenderKeepAliveTimer();
+      |             ^
+/Users/gilmichael/Desktop/Projects/agus_maps_flutter/macos/Classes/agus_maps_flutter_macos.mm:146:5: error: use of undeclared identifier 'stopRenderKeepAliveTimer'
+  146 |     stopRenderKeepAliveTimer();
+      |     ^
+145 warnings and 2 errors generated.
+** BUILD FAILED **
+
+Build process failed
