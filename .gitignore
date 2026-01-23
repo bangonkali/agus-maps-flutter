@@ -43,3 +43,27 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Native C/C++/ObjC Build Artifacts (detected in your list)
+*.o
+*.d
+*.dia
+*.hmap
+*.pcm
+*.metallib
+*.tbd
+*.dep
+
+# Dart/Flutter Build Intermediates (large generated files)
+*.dill
+*.sdkstatcache
+*.s
+*.S
+*.stamp
+
+# Xcode User State (personal settings)
+*.xcuserstate
+
+# Miscellaneous Binary Caches
+*.filecache
+*.last_build_id
