@@ -1,121 +1,226 @@
+import 'dart:async';
+import 'dart:io';
+
+import 'package:agus_maps_flutter/agus_maps_flutter.dart'
+    as agus_maps_flutter;
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget {
+/// Default focus: Philippines center.
+const double kFocusLat = 13.0;
+const double kFocusLon = 122.0;
+const int kFocusZoom = 4;
+
+class MyApp extends StatefulWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        // This is the theme of your application.
-        //
-        // TRY THIS: Try running your application with "flutter run". You'll see
-        // the application has a purple toolbar. Then, without quitting the app,
-        // try changing the seedColor in the colorScheme below to Colors.green
-        // and then invoke "hot reload" (save your changes or press the "hot
-        // reload" button in a Flutter-supported IDE, or press "r" if you used
-        // the command line to start the app).
-        //
-        // Notice that the counter didn't reset back to zero; the application
-        // state is not lost during the reload. To reset the state, use hot
-        // restart instead.
-        //
-        // This works for code too, not just values: Most code changes can be
-        // tested with just a hot reload.
-        colorScheme: .fromSeed(seedColor: Colors.deepPurple),
-      ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
-    );
+  State<MyApp> createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+  final agus_maps_flutter.AgusMapController _mapController =
+      agus_maps_flutter.AgusMapController();
+
+  String _status = 'Initializing...';
+  String _debug = '';
+  bool _dataReady = false;
+
+  final List<String> _mapPathsToRegister = [];
+  int? _bundledMwmVersion;
+
+  @override
+  void initState() {
+    super.initState();
+    SchedulerBinding.instance.addPostFrameCallback((_) {
+      _initData();
+    });
   }
-}
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
-
-  // This widget is the home page of your application. It is stateful, meaning
-  // that it has a State object (defined below) that contains fields that affect
-  // how it looks.
-
-  // This class is the configuration for the state. It holds the values (in this
-  // case the title) provided by the parent (in this case the App widget) and
-  // used by the build method of the State. Fields in a Widget subclass are
-  // always marked "final".
-
-  final String title;
-
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-
-  void _incrementCounter() {
+  void _log(String msg) {
+    debugPrint('[AgusExample] $msg');
+    if (!mounted) return;
     setState(() {
-      // This call to setState tells the Flutter framework that something has
-      // changed in this State, which causes it to rerun the build method below
-      // so that the display can reflect the updated values. If we changed
-      // _counter without calling setState(), then the build method would not be
-      // called again, and so nothing would appear to happen.
-      _counter++;
+      _debug += '$msg\n';
+    });
+  }
+
+  Future<void> _initData() async {
+    try {
+      _log('Starting initialization...');
+
+      final maps = [
+        'World.mwm',
+        'WorldCoasts.mwm',
+        'Philippines_Luzon_Manila.mwm',
+        'Philippines_Luzon_North.mwm',
+        'Philippines_Luzon_South.mwm',
+        'Philippines_Mindanao.mwm',
+        'Philippines_Visayas.mwm',
+      ];
+
+      for (final map in maps) {
+        _log('Extracting $map...');
+        final path = await agus_maps_flutter.extractMap('assets/maps/$map');
+        _mapPathsToRegister.add(path);
+      }
+
+      _log('Extracting icudt75l.dat...');
+      await agus_maps_flutter.extractMap('assets/maps/icudt75l.dat');
+
+      _log('Extracting data files...');
+      final dataPath = await agus_maps_flutter.extractDataFiles();
+      _log('Data path: $dataPath');
+
+      _bundledMwmVersion = await _readBundledMwmVersion(dataPath);
+      _log('Bundled MWM version: ${_bundledMwmVersion ?? 'unknown'}');
+
+      _log('Calling initWithPaths()...');
+      agus_maps_flutter.initWithPaths(dataPath, dataPath);
+      _log('initWithPaths() complete');
+
+      if (!mounted) return;
+      setState(() {
+        _status = 'Data ready - creating map...';
+        _dataReady = true;
+      });
+    } catch (e, stackTrace) {
+      _log('ERROR: $e\n$stackTrace');
+      if (!mounted) return;
+      setState(() {
+        _status = 'Error: $e';
+      });
+    }
+  }
+
+  Future<int?> _readBundledMwmVersion(String dataPath) async {
+    try {
+      final file = File('$dataPath/countries.txt');
+      if (!await file.exists()) {
+        return null;
+      }
+      final contents = await file.readAsString();
+      final match = RegExp(r'"v"\s*:\s*(\d+)').firstMatch(contents);
+      if (match != null) {
+        return int.tryParse(match.group(1)!);
+      }
+      return null;
+    } catch (_) {
+      return null;
+    }
+  }
+
+  void _onMapReady() {
+    unawaited(_onMapReadyAsync());
+  }
+
+  Future<void> _onMapReadyAsync() async {
+    _log('Map surface ready! Registering maps...');
+
+    final bundledVersion = _bundledMwmVersion;
+    if (bundledVersion == null) {
+      _log('WARNING: bundled MWM version unknown; registrations may fail.');
+    }
+
+    for (final path in _mapPathsToRegister) {
+      final result = bundledVersion != null
+          ? agus_maps_flutter.registerSingleMapWithVersion(path, bundledVersion)
+          : agus_maps_flutter.registerSingleMap(path);
+      _log('Registered $path: result=$result');
+
+      if (result == 2) {
+        final fileName = File(path).uri.pathSegments.last;
+        final assetPath = 'assets/maps/$fileName';
+        _log('$fileName is too old; re-extracting from $assetPath...');
+        try {
+          final f = File(path);
+          if (await f.exists()) {
+            await f.delete();
+          }
+          final newPath = await agus_maps_flutter.extractMap(assetPath);
+          final retry = bundledVersion != null
+              ? agus_maps_flutter.registerSingleMapWithVersion(
+                  newPath,
+                  bundledVersion,
+                )
+              : agus_maps_flutter.registerSingleMap(newPath);
+          _log('Re-registered $newPath: result=$retry');
+        } catch (e, st) {
+          _log('Failed to re-extract/re-register $fileName: $e\n$st');
+        }
+      }
+    }
+
+    _log('Invalidating map viewport...');
+    agus_maps_flutter.invalidateMap();
+
+    _log('Forcing complete tile reload...');
+    agus_maps_flutter.forceRedraw();
+
+    await Future.delayed(const Duration(milliseconds: 1500));
+    _log('Moving to Philippines...');
+    _mapController.moveToLocation(kFocusLat, kFocusLon, kFocusZoom);
+
+    if (!mounted) return;
+    setState(() {
+      _status = 'Map ready!';
     });
   }
 
   @override
   Widget build(BuildContext context) {
-    // This method is rerun every time setState is called, for instance as done
-    // by the _incrementCounter method above.
-    //
-    // The Flutter framework has been optimized to make rerunning build methods
-    // fast, so that you can just rebuild anything that needs updating rather
-    // than having to individually change instances of widgets.
-    return Scaffold(
-      appBar: AppBar(
-        // TRY THIS: Try changing the color here to a specific color (to
-        // Colors.amber, perhaps?) and trigger a hot reload to see the AppBar
-        // change color while the other colors stay the same.
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        // Here we take the value from the MyHomePage object that was created by
-        // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        body: _buildBody(),
       ),
-      body: Center(
-        // Center is a layout widget. It takes a single child and positions it
-        // in the middle of the parent.
-        child: Column(
-          // Column is also a layout widget. It takes a list of children and
-          // arranges them vertically. By default, it sizes itself to fit its
-          // children horizontally, and tries to be as tall as its parent.
-          //
-          // Column has various properties to control how it sizes itself and
-          // how it positions its children. Here we use mainAxisAlignment to
-          // center the children vertically; the main axis here is the vertical
-          // axis because Columns are vertical (the cross axis would be
-          // horizontal).
-          //
-          // TRY THIS: Invoke "debug painting" (choose the "Toggle Debug Paint"
-          // action in the IDE, or press "p" in the console), to see the
-          // wireframe for each widget.
-          mainAxisAlignment: .center,
-          children: [
-            const Text('You have pushed the button this many times:'),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
-            ),
-          ],
+    );
+  }
+
+  Widget _buildBody() {
+    if (!_dataReady) {
+      return Container(
+        color: Colors.black,
+        child: Center(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              const CircularProgressIndicator(),
+              const SizedBox(height: 16),
+              Text(
+                _status,
+                style: const TextStyle(color: Colors.white),
+              ),
+              const SizedBox(height: 16),
+              SizedBox(
+                height: 160,
+                child: SingleChildScrollView(
+                  padding: const EdgeInsets.symmetric(horizontal: 16),
+                  child: Text(
+                    _debug,
+                    style: const TextStyle(
+                      fontSize: 10,
+                      fontFamily: 'monospace',
+                      color: Colors.white70,
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ),
         ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
+      );
+    }
+
+    return SizedBox.expand(
+      child: agus_maps_flutter.AgusMap(
+        onMapReady: _onMapReady,
+        controller: _mapController,
       ),
     );
   }

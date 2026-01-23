@@ -4,10 +4,9 @@ packages:
   agus_maps_flutter:
     dependency: "direct main"
     description:
-      name: agus_maps_flutter
-      sha256: "00cfcf8f9920eb5793888857b20005d1a77597e3dd98c361c6fd8d2fca6dfdcc"
-      url: "https://pub.dev"
-    source: hosted
+      path: "../agus-maps-flutter"
+      relative: true
+    source: path
     version: "0.1.18"
   archive:
     dependency: transitive
