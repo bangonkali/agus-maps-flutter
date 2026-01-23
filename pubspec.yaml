@@ -34,6 +34,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  agus_maps_flutter: 0.1.18
 
 dev_dependencies:
   flutter_test:
@@ -58,9 +59,148 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/maps/World.mwm
+    - assets/maps/WorldCoasts.mwm
+    - assets/maps/icudt75l.dat
+    - assets/maps/Philippines_Luzon_Manila.mwm
+    - assets/maps/Philippines_Luzon_North.mwm
+    - assets/maps/Philippines_Luzon_South.mwm
+    - assets/maps/Philippines_Mindanao.mwm
+    - assets/maps/Philippines_Visayas.mwm
+    # CoMaps data files for engine initialization
+    - assets/comaps_data/
+    - assets/comaps_data/fonts/
+    # NOTE: Flutter does not include nested directory contents when only the
+    # parent directory is listed. We must list each locale folder explicitly
+    # so `*/localize.json` files are bundled on desktop.
+    - assets/comaps_data/categories-strings/ar.json/
+    - assets/comaps_data/categories-strings/be.json/
+    - assets/comaps_data/categories-strings/bg.json/
+    - assets/comaps_data/categories-strings/ca.json/
+    - assets/comaps_data/categories-strings/cs.json/
+    - assets/comaps_data/categories-strings/da.json/
+    - assets/comaps_data/categories-strings/de.json/
+    - assets/comaps_data/categories-strings/el.json/
+    - assets/comaps_data/categories-strings/en-AU.json/
+    - assets/comaps_data/categories-strings/en-GB.json/
+    - assets/comaps_data/categories-strings/en-US.json/
+    - assets/comaps_data/categories-strings/en.json/
+    - assets/comaps_data/categories-strings/es-MX.json/
+    - assets/comaps_data/categories-strings/es.json/
+    - assets/comaps_data/categories-strings/et.json/
+    - assets/comaps_data/categories-strings/eu.json/
+    - assets/comaps_data/categories-strings/fa.json/
+    - assets/comaps_data/categories-strings/fi.json/
+    - assets/comaps_data/categories-strings/fr.json/
+    - assets/comaps_data/categories-strings/he.json/
+    - assets/comaps_data/categories-strings/hi.json/
+    - assets/comaps_data/categories-strings/hu.json/
+    - assets/comaps_data/categories-strings/id.json/
+    - assets/comaps_data/categories-strings/it.json/
+    - assets/comaps_data/categories-strings/ja.json/
+    - assets/comaps_data/categories-strings/ko.json/
+    - assets/comaps_data/categories-strings/lv.json/
+    - assets/comaps_data/categories-strings/mr.json/
+    - assets/comaps_data/categories-strings/nb.json/
+    - assets/comaps_data/categories-strings/nl.json/
+    - assets/comaps_data/categories-strings/pl.json/
+    - assets/comaps_data/categories-strings/pt-BR.json/
+    - assets/comaps_data/categories-strings/pt.json/
+    - assets/comaps_data/categories-strings/ro.json/
+    - assets/comaps_data/categories-strings/ru.json/
+    - assets/comaps_data/categories-strings/sk.json/
+    - assets/comaps_data/categories-strings/sr.json/
+    - assets/comaps_data/categories-strings/sv.json/
+    - assets/comaps_data/categories-strings/sw.json/
+    - assets/comaps_data/categories-strings/th.json/
+    - assets/comaps_data/categories-strings/tr.json/
+    - assets/comaps_data/categories-strings/uk.json/
+    - assets/comaps_data/categories-strings/vi.json/
+    - assets/comaps_data/categories-strings/zh-Hans.json/
+    - assets/comaps_data/categories-strings/zh-Hant.json/
+
+    - assets/comaps_data/countries-strings/ar.json/
+    - assets/comaps_data/countries-strings/ast.json/
+    - assets/comaps_data/countries-strings/az.json/
+    - assets/comaps_data/countries-strings/be.json/
+    - assets/comaps_data/countries-strings/ca.json/
+    - assets/comaps_data/countries-strings/cs.json/
+    - assets/comaps_data/countries-strings/cy.json/
+    - assets/comaps_data/countries-strings/da.json/
+    - assets/comaps_data/countries-strings/de.json/
+    - assets/comaps_data/countries-strings/default.json/
+    - assets/comaps_data/countries-strings/el.json/
+    - assets/comaps_data/countries-strings/en.json/
+    - assets/comaps_data/countries-strings/es.json/
+    - assets/comaps_data/countries-strings/et.json/
+    - assets/comaps_data/countries-strings/eu.json/
+    - assets/comaps_data/countries-strings/fa.json/
+    - assets/comaps_data/countries-strings/fi.json/
+    - assets/comaps_data/countries-strings/fr.json/
+    - assets/comaps_data/countries-strings/he.json/
+    - assets/comaps_data/countries-strings/hu.json/
+    - assets/comaps_data/countries-strings/ia.json/
+    - assets/comaps_data/countries-strings/id.json/
+    - assets/comaps_data/countries-strings/it.json/
+    - assets/comaps_data/countries-strings/ja.json/
+    - assets/comaps_data/countries-strings/kab.json/
+    - assets/comaps_data/countries-strings/ko.json/
+    - assets/comaps_data/countries-strings/lt.json/
+    - assets/comaps_data/countries-strings/mr.json/
+    - assets/comaps_data/countries-strings/nb.json/
+    - assets/comaps_data/countries-strings/nl.json/
+    - assets/comaps_data/countries-strings/pl.json/
+    - assets/comaps_data/countries-strings/pt.json/
+    - assets/comaps_data/countries-strings/ro.json/
+    - assets/comaps_data/countries-strings/ru.json/
+    - assets/comaps_data/countries-strings/sk.json/
+    - assets/comaps_data/countries-strings/sr.json/
+    - assets/comaps_data/countries-strings/sr_Latn.json/
+    - assets/comaps_data/countries-strings/sv.json/
+    - assets/comaps_data/countries-strings/th.json/
+    - assets/comaps_data/countries-strings/tr.json/
+    - assets/comaps_data/countries-strings/uk.json/
+    - assets/comaps_data/countries-strings/vi.json/
+    - assets/comaps_data/countries-strings/zh-Hans.json/
+    - assets/comaps_data/countries-strings/zh-Hant.json/
+    - assets/comaps_data/symbols/
+    - assets/comaps_data/symbols/6plus/
+    - assets/comaps_data/symbols/6plus/dark/
+    - assets/comaps_data/symbols/6plus/light/
+    - assets/comaps_data/symbols/default/
+    - assets/comaps_data/symbols/hdpi/
+    - assets/comaps_data/symbols/hdpi/dark/
+    - assets/comaps_data/symbols/hdpi/light/
+    - assets/comaps_data/symbols/mdpi/
+    - assets/comaps_data/symbols/mdpi/dark/
+    - assets/comaps_data/symbols/mdpi/light/
+    - assets/comaps_data/symbols/xhdpi/
+    - assets/comaps_data/symbols/xhdpi/dark/
+    - assets/comaps_data/symbols/xhdpi/light/
+    - assets/comaps_data/symbols/xxhdpi/
+    - assets/comaps_data/symbols/xxhdpi/dark/
+    - assets/comaps_data/symbols/xxhdpi/light/
+    - assets/comaps_data/symbols/xxxhdpi/
+    - assets/comaps_data/symbols/xxxhdpi/dark/
+    - assets/comaps_data/symbols/xxxhdpi/light/
+    - assets/comaps_data/styles/
+    - assets/comaps_data/styles/default/
+    - assets/comaps_data/styles/default/include/
+    - assets/comaps_data/styles/default/light/
+    - assets/comaps_data/styles/default/light/symbols/
+    - assets/comaps_data/styles/default/light/symbols-ad/
+    - assets/comaps_data/styles/default/dark/
+    - assets/comaps_data/styles/default/dark/symbols/
+    - assets/comaps_data/styles/default/dark/symbols-ad/
+    - assets/comaps_data/styles/vehicle/
+    - assets/comaps_data/styles/vehicle/include/
+    - assets/comaps_data/styles/vehicle/light/
+    - assets/comaps_data/styles/vehicle/dark/
+    - assets/comaps_data/styles/outdoors/
+    - assets/comaps_data/styles/outdoors/include/
+    - assets/comaps_data/styles/outdoors/light/
+    - assets/comaps_data/styles/outdoors/dark/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
