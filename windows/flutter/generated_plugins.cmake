@@ -3,6 +3,7 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
+  agus_maps_flutter
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST

@@ -6,6 +6,9 @@
 
 #include "generated_plugin_registrant.h"
 
+#include <agus_maps_flutter/agus_maps_flutter_plugin_c_api.h>
 
 void RegisterPlugins(flutter::PluginRegistry* registry) {
+  AgusMapsFlutterPluginCApiRegisterWithRegistrar(
+      registry->GetRegistrarForPlugin("AgusMapsFlutterPluginCApi"));
 }
