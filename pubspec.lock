@@ -5,10 +5,10 @@ packages:
     dependency: "direct main"
     description:
       name: agus_maps_flutter
-      sha256: "00cfcf8f9920eb5793888857b20005d1a77597e3dd98c361c6fd8d2fca6dfdcc"
+      sha256: c6cf4c91eba9f3531bf020aeafad8dd813736f514f0f08f14220aa77e5fcdbc3
       url: "https://pub.dev"
     source: hosted
-    version: "0.1.18"
+    version: "0.1.22"
   archive:
     dependency: transitive
     description:
