@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<journey name="Map Initialization Journey">
+    <description>The map initializes properly.</description>
+    <actions xml:space="preserve">
+        <action>After a while of app initialization, without any user input or touch interaction, the app should animate to focus on the map of the Philippines. Luzon Sea, Sulu Sea should be visible.</action>
+    </actions>
+</journey>
