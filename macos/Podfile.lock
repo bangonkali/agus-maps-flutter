@@ -1,5 +1,5 @@
 PODS:
-  - agus_maps_flutter (0.1.22):
+  - agus_maps_flutter (0.1.23):
     - FlutterMacOS
   - FlutterMacOS (1.0.0)
   - shared_preferences_foundation (0.0.1):
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
     :path: Flutter/ephemeral/.symlinks/plugins/shared_preferences_foundation/darwin
 
 SPEC CHECKSUMS:
-  agus_maps_flutter: 5109760f94df82ecc511e242789910d2c56a6a28
+  agus_maps_flutter: 027d5607d7788fb9c1d7736eade41baf7aa54d08
   FlutterMacOS: d0db08ddef1a9af05a5ec4b724367152bb0500b1
   shared_preferences_foundation: 7036424c3d8ec98dfe75ff1667cb0cd531ec82bb
 
