@@ -1,4 +1,4 @@
-# agus_maps_flutter_example
+# Agus Maps Flutter Example App
 
 [![Video demo](https://img.youtube.com/vi/-weIQsRQh94/hqdefault.jpg)](https://youtu.be/-weIQsRQh94)
 
